@@ -1,0 +1,7 @@
+t1  n128 rc=0 45.944 tok/s (min 45.944 max 45.973) | worked 0.986 ms/token, waited for the card 20.779 ms/token
+t14 n128 rc=0 43.034 tok/s (min 43.034 max 43.187) | worked 1.437 ms/token, waited for the card 21.718 ms/token
+t7  n128 rc=0 45.833 tok/s (min 45.833 max 45.879) | worked 1.032 ms/token, waited for the card 20.764 ms/token
+t4  n128 rc=0 46.266 tok/s (min 46.266 max 46.336) | worked 0.859 ms/token, waited for the card 20.755 ms/token
+t1  n128 rc=0 45.758 tok/s (min 45.758 max 45.832) | worked 0.980 ms/token, waited for the card 20.839 ms/token
+t14 n128 rc=0 43.992 tok/s (min 43.992 max 44.233) | worked 1.632 ms/token, waited for the card 20.976 ms/token
+t1  n512 rc=0 44.489 tok/s (min 44.489 max 44.499) | worked 1.769 ms/token, waited for the card 20.709 ms/token

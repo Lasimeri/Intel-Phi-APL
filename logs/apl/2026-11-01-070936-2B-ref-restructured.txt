@@ -1,0 +1,58 @@
+ resuming after layer 0 
+1 delta ms20580 maxabs 2.0650894838346665
+2 delta ms20195 maxabs 2.4881308298906819
+3 full  ms17130 maxabs 2.3767691243645581
+4 delta ms20121 maxabs 2.5049756240997119
+5 delta ms20258 maxabs 2.7989635352978564
+6 delta ms20382 maxabs 4.4507194311733009
+7 full  ms17196 maxabs 3.5832662655024343
+8 delta ms20028 maxabs 3.3012397730368308
+9 delta ms20206 maxabs 3.1351984738488121
+10 delta ms20066 maxabs 3.5138053435867445
+11 full  ms17029 maxabs 3.1259143279723247
+12 delta ms20131 maxabs 2.8479120103704737
+13 delta ms20031 maxabs 3.2463966976887417
+14 delta ms19888 maxabs 6.9633270579563629
+15 full  ms17075 maxabs 4.4927578311049574
+16 delta ms20038 maxabs 5.6539134982499197
+17 delta ms20004 maxabs 7.6375281488391016
+18 delta ms19997 maxabs 16.697742398918352
+19 full  ms17147 maxabs 11.421736821408845
+20 delta ms20118 maxabs 14.348189323891781
+21 delta ms20438 maxabs 16.358463518081887
+22 delta ms21074 maxabs 16.245458221218501
+23 full  ms17018 maxabs 32.500744466039695
+ logits ms 31948 top token 357 value 18.334057737354765 
+
+run rc=0
+logits.txt   numcmp: 248320 numbers, max abs diff 5.151e-14, max rel diff 1.115e-09, 659 beyond 1.0e-12
+x-00.txt     numcmp: 81920 numbers, max abs diff 1.776e-15, max rel diff 6.711e-11, 118 beyond 1.0e-12
+x-01.txt     numcmp: 81920 numbers, max abs diff 1.776e-15, max rel diff 1.312e-10, 149 beyond 1.0e-12
+x-02.txt     numcmp: 81920 numbers, max abs diff 6.661e-15, max rel diff 4.335e-07, 185 beyond 1.0e-12
+x-03.txt     numcmp: 81920 numbers, max abs diff 7.550e-15, max rel diff 3.868e-11, 227 beyond 1.0e-12
+x-04.txt     numcmp: 81920 numbers, max abs diff 4.441e-15, max rel diff 2.689e-10, 229 beyond 1.0e-12
+x-05.txt     numcmp: 81920 numbers, max abs diff 6.217e-15, max rel diff 7.016e-10, 267 beyond 1.0e-12
+x-06.txt     numcmp: 81920 numbers, max abs diff 5.329e-15, max rel diff 9.505e-11, 249 beyond 1.0e-12
+x-07.txt     numcmp: 81920 numbers, max abs diff 4.885e-15, max rel diff 3.733e-10, 309 beyond 1.0e-12
+x-08.txt     numcmp: 81920 numbers, max abs diff 8.882e-15, max rel diff 8.236e-10, 299 beyond 1.0e-12
+x-09.txt     numcmp: 81920 numbers, max abs diff 8.216e-15, max rel diff 3.517e-10, 296 beyond 1.0e-12
+x-10.txt     numcmp: 81920 numbers, max abs diff 1.221e-14, max rel diff 6.244e-11, 306 beyond 1.0e-12
+x-11.txt     numcmp: 81920 numbers, max abs diff 1.354e-14, max rel diff 2.588e-10, 346 beyond 1.0e-12
+x-12.txt     numcmp: 81920 numbers, max abs diff 1.554e-14, max rel diff 8.999e-10, 350 beyond 1.0e-12
+x-13.txt     numcmp: 81920 numbers, max abs diff 1.188e-14, max rel diff 2.477e-09, 278 beyond 1.0e-12
+x-14.txt     numcmp: 81920 numbers, max abs diff 1.732e-14, max rel diff 2.624e-10, 252 beyond 1.0e-12
+x-15.txt     numcmp: 81920 numbers, max abs diff 2.021e-14, max rel diff 1.502e-10, 265 beyond 1.0e-12
+x-16.txt     numcmp: 81920 numbers, max abs diff 2.265e-14, max rel diff 1.243e-09, 293 beyond 1.0e-12
+x-17.txt     numcmp: 81920 numbers, max abs diff 1.998e-14, max rel diff 3.559e-10, 269 beyond 1.0e-12
+x-18.txt     numcmp: 81920 numbers, max abs diff 3.908e-14, max rel diff 9.113e-10, 258 beyond 1.0e-12
+x-19.txt     numcmp: 81920 numbers, max abs diff 4.086e-14, max rel diff 2.203e-10, 268 beyond 1.0e-12
+x-20.txt     numcmp: 81920 numbers, max abs diff 6.217e-14, max rel diff 1.802e-10, 284 beyond 1.0e-12
+x-21.txt     numcmp: 81920 numbers, max abs diff 7.816e-14, max rel diff 3.517e-10, 295 beyond 1.0e-12
+x-22.txt     numcmp: 81920 numbers, max abs diff 8.704e-14, max rel diff 5.467e-11, 263 beyond 1.0e-12
+x-23.txt     numcmp: 81920 numbers, max abs diff 7.105e-14, max rel diff 6.020e-10, 279 beyond 1.0e-12
+reference: top1 357 (18.2856), top2 561 (18.1980), margin 0.0876, stddev 2.1036
+engine:    top1 357 (18.3341), top2 561 (18.2374), margin 0.0967
+error:     RMS 0.0453, NRMSE 0.0215, max abs 0.2349, top-10 overlap 10
+top 10 ref: 357 561 1049 271 198 733 32372 1061 11116 1577
+top 10 eng: 357 561 1049 271 198 733 32372 1061 11116 1577
+PASS (top-1 same, NRMSE 0.0215 vs 0.10, overlap 10 vs 8)

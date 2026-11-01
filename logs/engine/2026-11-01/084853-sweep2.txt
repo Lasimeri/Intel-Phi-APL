@@ -1,0 +1,6 @@
+t1a threads 1 rc=0 23.679 tok/s (median of 2; min 23.679 max 24.125); PR |  worked 0.694 ms/token, waited for the card 41.538 ms/token, 152.0 exchange
+t14a threads 14 rc=0 23.599 tok/s (median of 2; min 23.599 max 24.258); PR |  worked 2.602 ms/token, waited for the card 39.773 ms/token, 152.0 exchange
+t14-noteam threads 14 rc=0 24.850 tok/s (median of 2; min 24.850 max 24.903); PR |  worked 0.752 ms/token, waited for the card 39.405 ms/token, 152.0 exchange
+t7 threads 7 rc=0 25.224 tok/s (median of 2; min 25.224 max 25.244); PR |  worked 0.981 ms/token, waited for the card 38.664 ms/token, 152.0 exchange
+t1b threads 1 rc=0 25.277 tok/s (median of 2; min 25.277 max 25.314); PR |  worked 0.684 ms/token, waited for the card 38.820 ms/token, 152.0 exchange
+t14b threads 14 rc=0 23.861 tok/s (median of 2; min 23.861 max 23.973); PR |  worked 1.866 ms/token, waited for the card 39.847 ms/token, 152.0 exchange

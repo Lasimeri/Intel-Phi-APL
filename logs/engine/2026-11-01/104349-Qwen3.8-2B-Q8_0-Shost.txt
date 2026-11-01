@@ -1,0 +1,12 @@
+phictl put: 124400 bytes
+phictl put: 766 bytes
+host worker: 1 threads, waiting for the card
+link: no attach from the card after 60 s
+feed: 2076674432 B in 124 slots, 0.681 s wall = 3.05 GB/s; file reads 0.370 s = 5.61 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.633 s = 3.28 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.244 s: 1998856192 B of Q8_0 repacked in place = 8.19 GB/s
+mmap: Invalid argument

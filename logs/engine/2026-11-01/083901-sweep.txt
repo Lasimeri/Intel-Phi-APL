@@ -1,0 +1,14 @@
+2B threads 14 rc=0 DECODE 23.664 tok/s (median of 3; min 23.479 max 23.706); PROMPT 24.327 tok/s; host threads 14 1
+2B threads 1 rc=0 DECODE 25.271 tok/s (median of 3; min 25.236 max 25.279); PROMPT 25.745 tok/s; host threads 1 1
+2B threads 2 rc=0 DECODE 23.621 tok/s (median of 3; min 23.216 max 23.715); PROMPT 24.528 tok/s; host threads 2 1
+2B threads 4 rc=0 DECODE 23.424 tok/s (median of 3; min 23.383 max 23.518); PROMPT 24.016 tok/s; host threads 4 1
+2B threads 8 rc=0 DECODE 24.003 tok/s (median of 3; min 23.620 max 24.070); PROMPT 24.443 tok/s; host threads 8 1
+2B threads 14 rc=0 DECODE 22.987 tok/s (median of 3; min 22.708 max 23.128); PROMPT 23.159 tok/s; host threads 14 1
+9B threads 14 rc=0 DECODE 8.091 tok/s (median of 3; min 8.042 max 8.103); PROMPT 7.995 tok/s; host threads 14 1
+9B threads 1 rc=0 DECODE 8.435 tok/s (median of 3; min 8.434 max 8.442); PROMPT 8.346 tok/s; host threads 1 1
+9B threads 8 rc=0 DECODE 8.341 tok/s (median of 3; min 8.339 max 8.352); PROMPT 8.266 tok/s; host threads 8 1
+9B threads 14 rc=0 DECODE 8.125 tok/s (median of 3; min 8.028 max 8.146); PROMPT 8.055 tok/s; host threads 14 1
+9B tokens vs llama.cpp: same 128 of 128
+PASS (top-1 same, NRMSE 0.0185 vs 0.10, overlap 10 vs 8)
+HugePages_Total:    1800
+HugePages_Free:     1284

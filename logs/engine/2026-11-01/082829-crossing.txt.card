@@ -1,0 +1,8 @@
+card       64 B: pull med    1.69 us, push med    1.35 us (3010 rounds)
+card     1024 B: pull med    2.04 us, push med    1.50 us (3010 rounds)
+card     8192 B: pull med    3.97 us, push med    3.48 us (3010 rounds)
+card    16384 B: pull med    6.23 us, push med    5.73 us (3010 rounds)
+card    24576 B: pull med    8.44 us, push med    7.97 us (3010 rounds)
+card    49152 B: pull med   15.16 us, push med   14.72 us (3010 rounds)
+card    65536 B: pull med   19.61 us, push med   19.20 us (3010 rounds)
+cross_card: no request for 60 s

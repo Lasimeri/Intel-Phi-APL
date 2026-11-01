@@ -1,0 +1,12 @@
+248320x2048 T 1 tpc 2: 3.295 ms, 308.7 GFLOPS, vs matvec 0.92x, differ 0
+248320x2048 T 2 tpc 2: 3.871 ms, 525.5 GFLOPS, vs matvec 1.58x, differ 0
+248320x2048 T 3 tpc 2: 5.326 ms, 572.9 GFLOPS, vs matvec 1.71x, differ 0
+248320x2048 T 4 tpc 2: 7.369 ms, 552.1 GFLOPS, vs matvec 1.67x, differ 0
+248320x2048 T 5 tpc 2: 9.049 ms, 562.0 GFLOPS, vs matvec 1.70x, differ 0
+248320x2048 T 8 tpc 2: 11.930 ms, 682.1 GFLOPS, vs matvec 2.06x, differ 0
+248320x2048 T 1 tpc 3: 3.464 ms, 293.6 GFLOPS, vs matvec 0.92x, differ 0
+248320x2048 T 2 tpc 3: 4.082 ms, 498.3 GFLOPS, vs matvec 1.65x, differ 0
+248320x2048 T 3 tpc 3: 6.091 ms, 501.0 GFLOPS, vs matvec 1.60x, differ 0
+248320x2048 T 4 tpc 3: 6.442 ms, 631.5 GFLOPS, vs matvec 1.97x, differ 0
+248320x2048 T 5 tpc 3: 7.923 ms, 641.9 GFLOPS, vs matvec 2.01x, differ 0
+248320x2048 T 8 tpc 3: 11.873 ms, 685.3 GFLOPS, vs matvec 2.15x, differ 0

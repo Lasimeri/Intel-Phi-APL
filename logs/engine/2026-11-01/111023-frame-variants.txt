@@ -1,0 +1,8 @@
+11:10:38 VA       Qwen3.8-2B-Q8_0 rc=0 45.540 tok/s (min 45.517 max 45.546); PROMPT 54.880 tok/s | worked 3.274 ms/token, waited for the card 18.682 ms/token
+11:10:51 VB       Qwen3.8-2B-Q8_0 rc=0 49.154 tok/s (min 48.752 max 49.245); PROMPT 110.756 tok/s | worked 3.221 ms/token, waited for the card 17.086 ms/token
+11:11:04 B1       Qwen3.8-2B-Q8_0 rc=0 45.843 tok/s (min 45.725 max 46.027); PROMPT 110.808 tok/s | worked 3.258 ms/token, waited for the card 18.612 ms/token
+11:11:19 Shost    Qwen3.8-2B-Q8_0 rc=0 48.241 tok/s (min 48.151 max 48.286); PROMPT 49.301 tok/s | worked 3.334 ms/token, waited for the card 17.434 ms/token
+11:11:35 VA       Qwen3.8-2B-Q8_0 rc=0 45.433 tok/s (min 45.364 max 45.679); PROMPT 54.970 tok/s | worked 3.316 ms/token, waited for the card 18.695 ms/token
+11:11:48 VB       Qwen3.8-2B-Q8_0 rc=0 49.147 tok/s (min 47.979 max 49.204); PROMPT 109.926 tok/s | worked 3.678 ms/token, waited for the card 17.165 ms/token
+11:12:02 B1       Qwen3.8-2B-Q8_0 rc=0 45.062 tok/s (min 44.614 max 45.080); PROMPT 110.372 tok/s | worked 3.334 ms/token, waited for the card 18.858 ms/token
+11:12:17 Shost    Qwen3.8-2B-Q8_0 rc=0 48.260 tok/s (min 48.234 max 48.491); PROMPT 49.171 tok/s | worked 3.359 ms/token, waited for the card 17.362 ms/token

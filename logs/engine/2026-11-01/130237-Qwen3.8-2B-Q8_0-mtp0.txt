@@ -1,0 +1,16 @@
+phictl put: 148744 bytes
+phictl put: 766 bytes
+host worker: 4 threads, waiting for the card
+host in prompt: worked 1.446 ms/token, waited for the card 7.405 ms/token, 7.0 exchanges/token
+host in decode: worked 3.639 ms/token, waited for the card 17.463 ms/token, 98.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 0.354 s = 112.986 tok/s; decode 127 tokens 2.680 s = 47.390 tok/s
+link: no phase from the card after 60 s
+feed: 2076674432 B in 124 slots, 0.686 s wall = 3.03 GB/s; file reads 0.373 s = 5.57 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.639 s = 3.25 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.262 s: 2063474688 B of Q8_0 repacked in place = 7.86 GB/s
+following the host's worker
+link: no phase from the host: giving up

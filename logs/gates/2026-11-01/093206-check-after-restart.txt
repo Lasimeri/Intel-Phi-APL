@@ -1,0 +1,87 @@
+host: gguf_info gguf_apl gguf_rows numcmp logit_cmp t_knc_half fma-gate fma-ref upconv upconv_cmp gemv_bench real_gemv apl_feed txt2f32 -> out/host
+host: ref_llama (against /home/lasimeri/llama.cpp) -> out/host
+fma-gate: result: 0 illegal, 0 suspect, 4 KNC vector
+upconv: result: 0 illegal, 0 suspect, 33 KNC vector
+gemv_bench: result: 0 illegal, 0 suspect, 91 KNC vector
+real_gemv: result: 0 illegal, 0 suspect, 91 KNC vector
+cross_card: result: 0 illegal, 0 suspect, 0 KNC vector
+card: fma-gate upconv gemv_bench real_gemv -> out/card
+date     2026-11-01 09:32:09 CST
+engine   /media/1TB-NVMe/Intel-Phi-APL (git no commits)
+stack    /media/1TB-NVMe/Xeon-Phi/Intel Phi 7120A (git aeb1d1c)
+vpu cc   clang version 23.1.1 (https://github.com/llvm/llvm-project.git 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)
+host cc  cc (GCC) 16.2.1 20260810
+card     0 0000:2f:00.0
+
+== host
+PASS  knc_half: knc_half: 65536 patterns, 2046 NaN (1022 differ only in the quiet bit), 0 wrong
+PASS  gguf_info Qwen3.8-2B-Q8_0.gguf: COMPLETE: file holds every tensor (0 B spare)
+PASS  gguf_info Qwen3.8-9B-Q8_0.gguf: COMPLETE: file holds every tensor (0 B spare)
+PASS  gate A host model == tests/golden/gate-a.txt
+PASS  gate A reference (lanes where unfused mul+add differs from fmaf: 809 of 4096) == tests/golden/gate-a.txt
+PASS  gate 2.1 reference == tests/golden/gate-2.1.txt
+PASS  gate 2.1 host model == tests/golden/gate-2.1.txt
+PASS  gate 2.1 host model == reference, every lane (discriminating: u8fma vs u8mul differ in 58 of 512 lanes; tree vs sequential hsum differ in 137 of 256 blocks)
+PASS  APL parser oracle:  parse: 8 functions 39 statements 1231 nodes 0 unreduced ; flat: 412 ops ; inlined: DeltaLayer 208 ops 16 instances 0 unresolved ; inlined: AttnLayer 247 ops 13 instances 0 unresolved ; inlined: Logits 15 ops 2 instances 0 unresolved ; inlined: Next 5 ops 1 instances 0 unresolved ; original == rendered == flat == inlined, 897 numbers
+PASS  APL shape oracle: shapes: 436 rows inferred, 2048 lines checked, 0 mismatches, 0 rows never ran
+
+== card 0
+phictl put: 29128 bytes
+phictl put: 54400 bytes
+PASS  gate A card == tests/golden/gate-a.txt
+PASS  gate 2.1 card == tests/golden/gate-2.1.txt
+phictl get: 564288 bytes
+PASS  gate 2.1 card == reference, every lane
+discriminating: u8fma vs u8mul differ in 58 of 512 lanes; tree vs sequential hsum differ in 137 of 256 blocks
+s8
+  host  n    512  differ      0  nan-vs-nan      0
+  card  n    512  differ      0  nan-vs-nan      0
+  c-v-h n    512  differ      0  nan-vs-nan      0
+u8fma
+  host  n    512  differ      0  nan-vs-nan      0
+  card  n    512  differ      0  nan-vs-nan      0
+  c-v-h n    512  differ      0  nan-vs-nan      0
+u8mul
+  host  n    512  differ      0  nan-vs-nan      0
+  card  n    512  differ      0  nan-vs-nan      0
+  c-v-h n    512  differ      0  nan-vs-nan      0
+b16
+  host  n   4096  differ      0  nan-vs-nan      0
+  card  n   4096  differ      0  nan-vs-nan      0
+  c-v-h n   4096  differ      0  nan-vs-nan      0
+bcast
+  host  n   4096  differ      0  nan-vs-nan      0
+  card  n   4096  differ      0  nan-vs-nan      0
+  c-v-h n   4096  differ      0  nan-vs-nan      0
+f16
+  host  n 131072  differ      0  nan-vs-nan      0
+  card  n 131072  differ      0  nan-vs-nan      0
+  c-v-h n 131072  differ      0  nan-vs-nan      0
+hsum
+  host  n    256  differ      0  nan-vs-nan      0
+  card  n    256  differ      0  nan-vs-nan      0
+  c-v-h n    256  differ      0  nan-vs-nan      0
+GATE 2.1 PASS (host model and card == reference, every bit)
+PASS  probe s8    {sint8} load, 16 B operand +16 exit 0
+PASS  probe s8    {sint8} load, 16 B operand +1  signal 11 (Segmentation fault)
+PASS  probe u8fma {uint8} fma,  16 B operand +16 exit 0
+PASS  probe u8fma {uint8} fma,  16 B operand +1  signal 11 (Segmentation fault)
+PASS  probe f16   {float16} fma, 32 B operand +32 exit 0
+PASS  probe f16   {float16} fma, 32 B operand +2  signal 11 (Segmentation fault)
+PASS  probe b16   {1to16} fma,   4 B operand +4  exit 0
+PASS  probe b16   {1to16} fma,   4 B operand +1  signal 11 (Segmentation fault)
+
+== real weights and the whole engine, card 0 with the host's worker
+PASS  the file on the card: file sum 4efb808a928153ac
+PASS  card y == host-model y, bit for bit: 248320 lanes
+PASS  y vs F64 APL reference: numcmp: 248320 numbers, max abs diff 4.764e-06, max rel diff 5.286e-02, 0 beyond 0.0e+00 rel and 1.0e-03 abs
+PASS  y vs llama.cpp: PASS (top-1 same, NRMSE 0.0215 vs 0.10, overlap 10 vs 8)
+PASS  every layer within 1e-2 of the F64 reference: 24 layers, worst 1.49e-05
+PASS  logits against the F64 reference: NRMSE 0 (limit 1e-3)
+PASS  logits against llama.cpp: PASS (top-1 same, NRMSE 0.0215 vs 0.10, overlap 10 vs 8)
+PASS  generated tokens against llama.cpp: 128 of 128 the same
+PASS  every repeat generated the same tokens
+      DECODE 26.856 tok/s (median of 3; min 26.630 max 26.864); PROMPT 26.969 tok/s; host threads 1
+
+record: logs/gates/2026-11-01/093209-check.txt
+-- 30 passed, 0 failed, 0 skipped

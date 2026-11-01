@@ -1,0 +1,7 @@
+model input/models/Qwen3.8-2B-Q8_0.gguf
+vocab 248320  prompt 40 tokens  gen 128 tokens  threads 8  repeats 3 (+1 warm-up)
+warmup 0  prompt   40 tok    373.32 ms =   107.15 tok/s (one batch)  decode  127 tok   8626.91 ms =  14.721 tok/s
+repeat 1  prompt   40 tok    384.57 ms =   104.01 tok/s (one batch)  decode  127 tok   8716.71 ms =  14.570 tok/s
+repeat 2  prompt   40 tok    321.23 ms =   124.52 tok/s (one batch)  decode  127 tok   8816.73 ms =  14.404 tok/s
+repeat 3  prompt   40 tok    323.46 ms =   123.66 tok/s (one batch)  decode  127 tok   8883.90 ms =  14.296 tok/s
+deterministic: every repeat generated the same tokens

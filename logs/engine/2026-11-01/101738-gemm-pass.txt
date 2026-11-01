@@ -1,0 +1,15 @@
+pass 64 T 40: 112.940 ms, 360.2 GFLOPS (14.9 %), vs matvec 1.08x, differ 0
+pass 32 T 40: 71.896 ms, 565.9 GFLOPS (23.4 %), vs matvec 1.71x, differ 0
+pass 24 T 40: 74.964 ms, 542.7 GFLOPS (22.5 %), vs matvec 1.64x, differ 0
+pass 16 T 40: 60.306 ms, 674.6 GFLOPS (27.9 %), vs matvec 2.04x, differ 0
+pass 12 T 40: 65.224 ms, 623.8 GFLOPS (25.8 %), vs matvec 1.89x, differ 0
+pass 8 T 40: 64.335 ms, 632.4 GFLOPS (26.2 %), vs matvec 1.91x, differ 0
+pass 64 T 64: 296.641 ms, 219.4 GFLOPS (9.1 %), vs matvec 0.66x, differ 0
+pass 32 T 64: 110.149 ms, 591.0 GFLOPS (24.5 %), vs matvec 1.78x, differ 0
+pass 24 T 64: 100.915 ms, 645.1 GFLOPS (26.7 %), vs matvec 1.94x, differ 0
+pass 16 T 64: 97.230 ms, 669.5 GFLOPS (27.7 %), vs matvec 2.02x, differ 0
+pass 12 T 64: 102.988 ms, 632.1 GFLOPS (26.2 %), vs matvec 1.92x, differ 0
+pass 8 T 64: 106.721 ms, 610.0 GFLOPS (25.2 %), vs matvec 1.90x, differ 0
+pass 16 T 16: 23.748 ms, 685.3 GFLOPS (28.4 %), vs matvec 2.06x, differ 0
+pass 16 T 8: 12.014 ms, 677.3 GFLOPS (28.0 %), vs matvec 2.03x, differ 0
+pass 16 T 5: 10.986 ms, 462.9 GFLOPS (19.2 %), vs matvec 1.49x, differ 0

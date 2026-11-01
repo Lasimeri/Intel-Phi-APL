@@ -1,0 +1,21 @@
+12:34:14
+4029 MiB, 39 %
+  NVIDIA GeForce RTX 3090 Ti: Gram 4096 x 4096 over vectors of 12288: 9.03 s
+  LAPACK eigenvalues on the host: 15.98 s
+control (random Gaussian): 12288 x 4096, top singular values 174.528 174.269 174.115 173.969; median 104.480; smallest 46.863
+  rank   256 (  6.2 % of the side): keeps  13.83 % of the energy, relative error 0.9283; factors are 0.083 of W's weights
+  rank   512 ( 12.5 % of the side): keeps  25.73 % of the energy, relative error 0.8618; factors are 0.167 of W's weights
+  rank  1024 ( 25.0 % of the side): keeps  45.60 % of the energy, relative error 0.7375; factors are 0.333 of W's weights
+  rank  1536 ( 37.5 % of the side): keeps  61.41 % of the energy, relative error 0.6212; factors are 0.500 of W's weights
+  rank  2048 ( 50.0 % of the side): keeps  73.95 % of the energy, relative error 0.5104; factors are 0.667 of W's weights
+  rank  3072 ( 75.0 % of the side): keeps  91.19 % of the energy, relative error 0.2968; factors are 1.000 of W's weights
+  NVIDIA GeForce RTX 3090 Ti: Gram 4096 x 4096 over vectors of 12288: 9.00 s
+  LAPACK eigenvalues on the host: 16.24 s
+blk.0.ffn_up.weight: 12288 x 4096, top singular values 3.995 3.041 3.016 2.902; median 1.031; smallest 0.192
+  rank   256 (  6.2 % of the side): keeps  18.77 % of the energy, relative error 0.9013; factors are 0.083 of W's weights
+  rank   512 ( 12.5 % of the side): keeps  32.08 % of the energy, relative error 0.8241; factors are 0.167 of W's weights
+  rank  1024 ( 25.0 % of the side): keeps  52.70 % of the energy, relative error 0.6878; factors are 0.333 of W's weights
+  rank  1536 ( 37.5 % of the side): keeps  67.92 % of the energy, relative error 0.5664; factors are 0.500 of W's weights
+  rank  2048 ( 50.0 % of the side): keeps  79.24 % of the energy, relative error 0.4556; factors are 0.667 of W's weights
+  rank  3072 ( 75.0 % of the side): keeps  93.56 % of the energy, relative error 0.2539; factors are 1.000 of W's weights
+12:35:06

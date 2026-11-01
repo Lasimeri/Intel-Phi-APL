@@ -1,0 +1,8 @@
+base       rc=0 15.385 tok/s (min 15.385 max 15.422) | big 6.169 mid 49.201 wait 6.482 dma calls/token ms/token
+prewarm    rc=0 14.154 tok/s (min 14.154 max 14.331) | big 6.296 mid 52.306 wait 8.148 dma calls/token ms/token
+base       rc=0 15.197 tok/s (min 15.197 max 15.283) | big 6.222 mid 49.228 wait 6.949 dma calls/token ms/token
+prewarm    rc=0 14.829 tok/s (min 14.829 max 14.851) | big 6.171 mid 51.519 wait 6.635 dma calls/token ms/token
+base       rc=0 15.303 tok/s (min 15.303 max 15.320) | big 6.234 mid 49.480 wait 6.508 dma calls/token ms/token
+prewarm    rc=0 14.714 tok/s (min 14.714 max 14.741) | big 6.154 mid 51.894 wait 6.774 dma calls/token ms/token
+base       rc=0 15.398 tok/s (min 15.398 max 15.408) | big 6.308 mid 49.243 wait 6.309 dma calls/token ms/token
+prewarm    rc=0 14.438 tok/s (min 14.438 max 14.612) | big 6.272 mid 52.229 wait 7.741 dma calls/token ms/token

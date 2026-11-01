@@ -1,0 +1,10 @@
+248320x2048 T 2 tpc 2: 4.170 ms, 487.9 GFLOPS, differ 0
+248320x2048 T 3 tpc 2: 5.042 ms, 605.1 GFLOPS, differ 0
+248320x2048 T 4 tpc 2: 7.028 ms, 578.9 GFLOPS, differ 0
+248320x2048 T 5 tpc 2: 8.569 ms, 593.5 GFLOPS, differ 0
+248320x2048 T 7 tpc 2: 12.196 ms, 583.8 GFLOPS, differ 0
+248320x2048 T 2 tpc 3: 4.260 ms, 477.5 GFLOPS, differ 0
+248320x2048 T 3 tpc 3: 5.099 ms, 598.4 GFLOPS, differ 0
+248320x2048 T 4 tpc 3: 6.695 ms, 607.7 GFLOPS, differ 0
+248320x2048 T 5 tpc 3: 9.668 ms, 526.0 GFLOPS, differ 0
+248320x2048 T 7 tpc 3: 10.414 ms, 683.7 GFLOPS, differ 0

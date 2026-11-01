@@ -1,0 +1,18 @@
+phictl put: 376544 bytes
+phictl put: 766 bytes
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.637 s = 3.26 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.303 s: 1998856192 B of Q8_0 repacked in place = 6.60 GB/s
+state: 46137344 B on 2 MiB pages
+frame: 2097152 B on 2 MiB pages
+run 0 (warm-up): prompt 40 tokens 2.612 s = 15.316 tok/s; decode 127 tokens 7.605 s = 16.700 tok/s
+run 1: prompt 40 tokens 2.360 s = 16.953 tok/s; decode 127 tokens 7.577 s = 16.761 tok/s
+run 2: prompt 40 tokens 2.360 s = 16.949 tok/s; decode 127 tokens 7.569 s = 16.778 tok/s
+run 3: prompt 40 tokens 2.359 s = 16.957 tok/s; decode 127 tokens 7.576 s = 16.763 tok/s
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 16.763 tok/s (median of 3; min 16.761 max 16.778); PROMPT 16.953 tok/s; tpc 2 cores 59 threads 118; Q8_0 2.00 GB per token = 33.5 GB/s (arithmetic, not all of a token's time)
+feed: 2076674432 B in 124 slots, 0.683 s wall = 3.04 GB/s; file reads 0.371 s = 5.60 GB/s

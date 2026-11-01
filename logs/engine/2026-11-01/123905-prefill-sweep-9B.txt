@@ -1,0 +1,16 @@
+p64K   rc=0 15.525 tok/s (min 15.525 max 15.596); PROMPT 35.604 tok/s
+p96K   rc=0 15.559 tok/s (min 15.559 max 15.696); PROMPT 35.599 tok/s
+p128K  rc=0 16.022 tok/s (min 16.022 max 16.025); PROMPT 36.211 tok/s
+p192K  rc=0 16.108 tok/s (min 16.108 max 16.112); PROMPT 36.835 tok/s
+p64K   rc=0 15.857 tok/s (min 15.857 max 15.949); PROMPT 37.320 tok/s
+p96K   rc=0 15.659 tok/s (min 15.659 max 15.717); PROMPT 35.596 tok/s
+p128K  rc=0 15.829 tok/s (min 15.829 max 15.908); PROMPT 35.873 tok/s
+p192K  rc=0 15.835 tok/s (min 15.835 max 16.014); PROMPT 36.710 tok/s
+p64K   rc=0 14.519 tok/s (min 14.519 max 14.822); PROMPT 34.358 tok/s
+p96K   rc=0 14.957 tok/s (min 14.957 max 15.330); PROMPT 34.992 tok/s
+p128K  rc=0 15.118 tok/s (min 15.118 max 15.163); PROMPT 34.567 tok/s
+p192K  rc=0 13.681 tok/s (min 13.681 max 14.519); PROMPT 34.338 tok/s
+p64K   rc=0 13.475 tok/s (min 13.475 max 14.248); PROMPT 33.238 tok/s
+p96K   rc=0 15.790 tok/s (min 15.790 max 15.854); PROMPT 36.071 tok/s
+p128K  rc=0 15.289 tok/s (min 15.289 max 15.397); PROMPT 34.604 tok/s
+p192K  rc=0 15.694 tok/s (min 15.694 max 15.711); PROMPT 37.278 tok/s

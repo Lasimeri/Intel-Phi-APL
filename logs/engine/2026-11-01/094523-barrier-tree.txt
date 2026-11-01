@@ -1,0 +1,3 @@
+threads 118: barrier 10.77 us, empty team_run 10.24 us
+threads 118: barrier 10.67 us, empty team_run 8.86 us
+threads 118: barrier 11.58 us, empty team_run 10.68 us

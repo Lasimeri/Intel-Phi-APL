@@ -1,0 +1,10 @@
+tpc2                   rc=0 14.700 tok/s (min 14.700 max 14.791); PROMPT 30.908 tok/s
+tpc3-gemv2             rc=0 14.443 tok/s (min 14.443 max 14.525); PROMPT 34.746 tok/s
+tpc4-gemv2             rc=0 14.348 tok/s (min 14.348 max 14.390); PROMPT 34.672 tok/s
+tpc2                   rc=0 14.570 tok/s (min 14.570 max 14.667); PROMPT 30.972 tok/s
+tpc3-gemv2             rc=0 14.440 tok/s (min 14.440 max 14.467); PROMPT 34.978 tok/s
+tpc4-gemv2             rc=0 14.222 tok/s (min 14.222 max 14.261); PROMPT 34.047 tok/s
+tpc3-gemv2-c60         rc=0 13.623 tok/s (min 13.623 max 13.728); PROMPT 33.673 tok/s
+tpc3-gemv2-pf1088      rc=0 14.431 tok/s (min 14.431 max 14.473); PROMPT 35.106 tok/s
+tpc3-gemv2             rc=0 14.439 tok/s (min 14.439 max 14.551); PROMPT 34.210 tok/s
+tpc3-gemv2-pf1088      rc=0 14.499 tok/s (min 14.499 max 14.549); PROMPT 34.847 tok/s

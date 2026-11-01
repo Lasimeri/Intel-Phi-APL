@@ -1,0 +1,4 @@
+MT7 round 1 rc=0 63 tokens, 64.071 ms per token of wall time:| gemv >=512 rows 129.0 calls/token 52.979 ms/token 82.7 %| waiting for the host 130.0 calls/token 7.508 ms/token 11.7 %|
+MT9 round 1 rc=0 63 tokens, 66.602 ms per token of wall time:| gemv >=512 rows 129.0 calls/token 52.661 ms/token 79.1 %| waiting for the host 130.0 calls/token 10.448 ms/token 15.7 %|
+MT7 round 2 rc=0 63 tokens, 64.203 ms per token of wall time:| gemv >=512 rows 129.0 calls/token 52.495 ms/token 81.8 %| waiting for the host 130.0 calls/token 8.211 ms/token 12.8 %|
+MT9 round 2 rc=0 63 tokens, 63.251 ms per token of wall time:| gemv >=512 rows 129.0 calls/token 53.046 ms/token 83.9 %| waiting for the host 130.0 calls/token 6.686 ms/token 10.6 %|

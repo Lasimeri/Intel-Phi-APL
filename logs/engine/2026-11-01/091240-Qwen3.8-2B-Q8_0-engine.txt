@@ -1,0 +1,25 @@
+phictl put: 119432 bytes
+phictl put: 766 bytes
+host worker: 1 threads, waiting for the card
+host in decode: worked 0.686 ms/token, waited for the card 39.799 ms/token, 158.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 1.664 s = 24.043 tok/s; decode 127 tokens 5.142 s = 24.701 tok/s
+host in decode: worked 0.696 ms/token, waited for the card 39.827 ms/token, 158.0 exchanges/token
+run 1: prompt 40 tokens 1.570 s = 25.473 tok/s; decode 127 tokens 5.146 s = 24.678 tok/s
+host in decode: worked 0.694 ms/token, waited for the card 39.711 ms/token, 158.0 exchanges/token
+run 2: prompt 40 tokens 1.574 s = 25.415 tok/s; decode 127 tokens 5.131 s = 24.750 tok/s
+host in decode: worked 0.688 ms/token, waited for the card 39.622 ms/token, 158.0 exchanges/token
+run 3: prompt 40 tokens 1.564 s = 25.567 tok/s; decode 127 tokens 5.119 s = 24.807 tok/s
+host memory: peak RSS 	   33744 kB
+KV cache in system memory: 25165824 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 24.750 tok/s (median of 3; min 24.678 max 24.807); PROMPT 25.473 tok/s; host threads 1
+feed: 2076674432 B in 124 slots, 0.690 s wall = 3.01 GB/s; file reads 0.367 s = 5.65 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.644 s = 3.23 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.335 s: 1998856192 B of Q8_0 repacked in place = 5.96 GB/s
+state: 18874368 B on 2 MiB pages
+following the host's worker

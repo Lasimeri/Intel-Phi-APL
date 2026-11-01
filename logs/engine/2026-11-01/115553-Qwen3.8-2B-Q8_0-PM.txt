@@ -1,0 +1,25 @@
+phictl put: 137760 bytes
+phictl put: 766 bytes
+host worker: 14 threads, waiting for the card
+host in prompt: worked 1.461 ms/token, waited for the card 7.080 ms/token, 7.0 exchanges/token
+host in decode: worked 7.802 ms/token, waited for the card 18.688 ms/token, 98.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 0.342 s = 117.076 tok/s; decode 127 tokens 3.364 s = 37.751 tok/s
+host in prompt: worked 1.835 ms/token, waited for the card 6.654 ms/token, 7.0 exchanges/token
+host in decode: worked 6.420 ms/token, waited for the card 18.316 ms/token, 98.0 exchanges/token
+run 1: prompt 40 tokens 0.340 s = 117.797 tok/s; decode 127 tokens 3.142 s = 40.426 tok/s
+host in prompt: worked 1.404 ms/token, waited for the card 6.566 ms/token, 7.0 exchanges/token
+host in decode: worked 6.865 ms/token, waited for the card 18.415 ms/token, 98.0 exchanges/token
+run 2: prompt 40 tokens 0.319 s = 125.478 tok/s; decode 127 tokens 3.210 s = 39.558 tok/s
+host memory: peak RSS 	   53372 kB
+KV cache in system memory: 25165824 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 39.558 tok/s (median of 2; min 39.558 max 40.426); PROMPT 117.797 tok/s; host threads 14
+feed: 2076674432 B in 124 slots, 0.740 s wall = 2.81 GB/s; file reads 0.450 s = 4.62 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.692 s = 3.00 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.251 s: 1998856192 B of Q8_0 repacked in place = 7.96 GB/s
+following the host's worker

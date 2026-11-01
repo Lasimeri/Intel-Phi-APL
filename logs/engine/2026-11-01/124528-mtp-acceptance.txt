@@ -1,0 +1,8 @@
+Qwen3.8-2B-Q8_0 K=0: decode 12.889931764930745 tok/s, 128 tokens, drafted 0 accepted 0 (-), tokens vs reference 128 of 128
+Qwen3.8-2B-Q8_0 K=1: decode 16.517094483071077 tok/s, 128 tokens, drafted 69 accepted 57 (82.6 %), tokens vs reference 128 of 128
+Qwen3.8-2B-Q8_0 K=2: decode 13.03247325797577 tok/s, 128 tokens, drafted 100 accepted 76 (76.0 %), tokens vs reference 128 of 128
+Qwen3.8-2B-Q8_0 K=3: decode 17.136737644445628 tok/s, 128 tokens, drafted 129 accepted 83 (64.3 %), tokens vs reference 128 of 128
+Qwen3.8-2B-Q8_0 K=4: decode 13.082385916484503 tok/s, 128 tokens, drafted 152 accepted 89 (58.6 %), tokens vs reference 128 of 128
+Qwen3.8-9B-Q8_0 K=0: decode 3.2291495328328828 tok/s, 64 tokens, drafted 0 accepted 0 (-), tokens vs reference 64 of 64
+Qwen3.8-9B-Q8_0 K=2: decode 2.7586513677609004 tok/s, 64 tokens, drafted 56 accepted 34 (60.7 %), tokens vs reference 64 of 64
+Qwen3.8-9B-Q8_0 K=3: decode 4.602861512698792 tok/s, 64 tokens, drafted 66 accepted 40 (60.6 %), tokens vs reference 64 of 64

@@ -1,0 +1,32 @@
+ placement: DeltaLayer card rows 8 host rows 243 side changes 8 
+ placement: AttnLayer card rows 7 host rows 244 side changes 8 
+ placement: DeltaLayer16 card rows 15 host rows 236 side changes 6 
+ placement: AttnLayer16 card rows 14 host rows 237 side changes 6 
+ placement: DeltaLayer8 card rows 15 host rows 236 side changes 6 
+ placement: AttnLayer8 card rows 14 host rows 237 side changes 6 
+ placement: DeltaLayer4 card rows 8 host rows 243 side changes 8 
+ placement: AttnLayer4 card rows 7 host rows 244 side changes 8 
+ placement: DeltaLayer3 card rows 8 host rows 243 side changes 8 
+ placement: AttnLayer3 card rows 7 host rows 244 side changes 8 
+ placement: DeltaLayer2 card rows 8 host rows 243 side changes 8 
+ placement: AttnLayer2 card rows 7 host rows 244 side changes 8 
+14:46:38 llama  Qwen3.8-2B-Q8_0: decode 14.570 14.404 14.296; prompt 104.01 124.52 123.66 | load 11.57
+14:46:48 engine Qwen3.8-2B-Q8_0 rc=0: decode 66.644 67.343 67.214; prompt 128.086 125.875 125.883 | worked 2.153 ms/token, waited for the card 12.724 ms/token, | load 11.25
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	  152392 kB
+KV cache in system memory: 29360128 B reserved in the region
+14:47:26 llama  Qwen3.8-2B-Q8_0: decode 14.432 14.280 14.126; prompt 103.85 124.76 98.84 | load 15.44
+14:47:36 engine Qwen3.8-2B-Q8_0 rc=0: decode 65.671 66.507 66.378; prompt 125.661 127.277 128.470 | worked 2.195 ms/token, waited for the card 12.870 ms/token, | load 14.38
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	  152404 kB
+KV cache in system memory: 29360128 B reserved in the region
+14:50:27 llama  Qwen3.8-9B-Q8_0: decode 3.431 3.476 3.526; prompt 27.10 23.51 27.08 | load 18.04
+14:51:03 engine Qwen3.8-9B-Q8_0 rc=0: decode 20.143 18.716 18.837; prompt 35.101 33.809 34.830 | worked 7.581 ms/token, waited for the card 45.506 ms/token, | load 13.90
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	  389716 kB
+KV cache in system memory: 75497472 B reserved in the region
+14:53:42 llama  Qwen3.8-9B-Q8_0: decode 3.324 3.384 3.475; prompt 28.63 26.13 27.50 | load 17.69
+14:54:18 engine Qwen3.8-9B-Q8_0 rc=0: decode 20.012 20.134 20.012; prompt 34.179 34.186 33.755 | worked 6.531 ms/token, waited for the card 43.440 ms/token, | load 14.79
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	  389708 kB
+KV cache in system memory: 75497472 B reserved in the region

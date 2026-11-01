@@ -1,0 +1,21 @@
+date     2026-11-01 10:18:31 CST
+engine   /media/1TB-NVMe/Intel-Phi-APL (git no commits)
+stack    /media/1TB-NVMe/Xeon-Phi/Intel Phi 7120A (git aeb1d1c)
+vpu cc   clang version 23.1.1 (https://github.com/llvm/llvm-project.git 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)
+host cc  cc (GCC) 16.2.1 20260810
+card     0 0000:2f:00.0
+
+PASS  host cc: cc (GCC) 16.2.1 20260810
+PASS  clangd: clangd version 23.1.4
+PASS  GNU APL: gnu-apl 2.0-3
+PASS  KNC clang: clang version 23.1.1 (https://github.com/llvm/llvm-project.git 6dfe1677ab8dffbc6ec13d53a1e0215d75147689) (-march=knc, immintrin.h)
+PASS  knc-cc: clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+PASS  phi-isa-audit: /media/1TB-NVMe/Xeon-Phi/Intel Phi 7120A/host/target/debug/phi-isa-audit
+PASS  phi CLI: /home/lasimeri/.local/bin/phi
+PASS  card 0 answers on the control socket
+PASS  card swap on /dev/loop0 (region offset 2 GiB), [0, 2 GiB) free for parts
+PASS  region /dev/shm/phi-hostmem: 4294967296 B
+PASS  model Qwen3.8-2B-Q8_0.gguf: 2076674432 B, COMPLETE: file holds every tensor (0 B spare)
+PASS  model Qwen3.8-9B-Q8_0.gguf: 9786060096 B, COMPLETE: file holds every tensor (0 B spare)
+
+-- 12 passed, 0 failed, 0 skipped

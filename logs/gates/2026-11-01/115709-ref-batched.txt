@@ -1,0 +1,35 @@
+11:57:09
+18 delta ms22890 maxabs 16.697742398918358
+19 full  ms20551 maxabs 11.421736821408839
+20 delta ms22530 maxabs 14.348189323891765
+21 delta ms24792 maxabs 16.358463518081869
+22 delta ms23180 maxabs 16.245458221218492
+23 full  ms21048 maxabs 32.500744466039637
+ logits ms 33980 top token 357 value 18.334057737354787 
+
+12:06:55
+logits.txt   numcmp: 248320 numbers, max abs diff 5.507e-14, max rel diff 2.045e-09, 0 beyond 1.0e-12 rel and 
+x-00.txt     numcmp: 81920 numbers, max abs diff 1.776e-15, max rel diff 6.711e-11, 0 beyond 1.0e-12 rel and 1
+x-01.txt     numcmp: 81920 numbers, max abs diff 1.998e-15, max rel diff 6.027e-11, 0 beyond 1.0e-12 rel and 1
+x-02.txt     numcmp: 81920 numbers, max abs diff 5.773e-15, max rel diff 2.668e-07, 0 beyond 1.0e-12 rel and 1
+x-03.txt     numcmp: 81920 numbers, max abs diff 6.661e-15, max rel diff 4.529e-11, 0 beyond 1.0e-12 rel and 1
+x-04.txt     numcmp: 81920 numbers, max abs diff 5.329e-15, max rel diff 1.951e-10, 0 beyond 1.0e-12 rel and 1
+x-05.txt     numcmp: 81920 numbers, max abs diff 8.105e-15, max rel diff 1.049e-09, 0 beyond 1.0e-12 rel and 1
+x-06.txt     numcmp: 81920 numbers, max abs diff 6.217e-15, max rel diff 7.814e-11, 0 beyond 1.0e-12 rel and 1
+x-07.txt     numcmp: 81920 numbers, max abs diff 6.661e-15, max rel diff 2.563e-10, 0 beyond 1.0e-12 rel and 1
+x-08.txt     numcmp: 81920 numbers, max abs diff 6.772e-15, max rel diff 1.292e-09, 0 beyond 1.0e-12 rel and 1
+x-09.txt     numcmp: 81920 numbers, max abs diff 5.385e-15, max rel diff 2.364e-10, 0 beyond 1.0e-12 rel and 1
+x-10.txt     numcmp: 81920 numbers, max abs diff 7.550e-15, max rel diff 1.534e-10, 0 beyond 1.0e-12 rel and 1
+x-11.txt     numcmp: 81920 numbers, max abs diff 7.550e-15, max rel diff 8.664e-10, 0 beyond 1.0e-12 rel and 1
+x-12.txt     numcmp: 81920 numbers, max abs diff 9.992e-15, max rel diff 8.391e-10, 0 beyond 1.0e-12 rel and 1
+x-13.txt     numcmp: 81920 numbers, max abs diff 7.550e-15, max rel diff 1.196e-09, 0 beyond 1.0e-12 rel and 1
+x-14.txt     numcmp: 81920 numbers, max abs diff 1.288e-14, max rel diff 2.327e-10, 0 beyond 1.0e-12 rel and 1
+x-15.txt     numcmp: 81920 numbers, max abs diff 2.132e-14, max rel diff 5.170e-10, 0 beyond 1.0e-12 rel and 1
+x-16.txt     numcmp: 81920 numbers, max abs diff 2.132e-14, max rel diff 6.214e-10, 0 beyond 1.0e-12 rel and 1
+x-17.txt     numcmp: 81920 numbers, max abs diff 2.487e-14, max rel diff 2.358e-10, 0 beyond 1.0e-12 rel and 1
+x-18.txt     numcmp: 81920 numbers, max abs diff 4.619e-14, max rel diff 4.346e-10, 0 beyond 1.0e-12 rel and 1
+x-19.txt     numcmp: 81920 numbers, max abs diff 5.329e-14, max rel diff 2.499e-10, 0 beyond 1.0e-12 rel and 1
+x-20.txt     numcmp: 81920 numbers, max abs diff 5.862e-14, max rel diff 2.182e-10, 0 beyond 1.0e-12 rel and 1
+x-21.txt     numcmp: 81920 numbers, max abs diff 7.994e-14, max rel diff 7.730e-10, 0 beyond 1.0e-12 rel and 1
+x-22.txt     numcmp: 81920 numbers, max abs diff 8.704e-14, max rel diff 5.888e-11, 0 beyond 1.0e-12 rel and 1
+x-23.txt     numcmp: 81920 numbers, max abs diff 6.395e-14, max rel diff 3.217e-10, 0 beyond 1.0e-12 rel and 1

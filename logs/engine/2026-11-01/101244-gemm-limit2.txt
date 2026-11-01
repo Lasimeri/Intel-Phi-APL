@@ -1,0 +1,20 @@
+== one group per thread, resident in L2: 1888 rows x 2048, 4096, 8192 cols
+X=1 1888x2048 T 1 tpc 2: med 0.035 ms, 221.7 GFLOPS (9.2 %), per-token 1888x20480 ms
+X=1 1888x2048 T 8 tpc 2: med 0.106 ms, 581.1 GFLOPS (24.0 %), per-token 1888x20480 ms
+X=1 1888x2048 T 16 tpc 2: med 0.210 ms, 588.5 GFLOPS (24.4 %), per-token 1888x20480 ms
+X=1 1888x2048 T 40 tpc 2: med 0.628 ms, 492.4 GFLOPS (20.4 %), per-token 1888x20480 ms
+X=1 1888x4096 T 1 tpc 2: med 0.062 ms, 249.4 GFLOPS (10.3 %), per-token 1888x40960 ms
+X=1 1888x4096 T 8 tpc 2: med 0.206 ms, 599.7 GFLOPS (24.8 %), per-token 1888x40960 ms
+X=1 1888x4096 T 16 tpc 2: med 0.448 ms, 552.1 GFLOPS (22.8 %), per-token 1888x40960 ms
+X=1 1888x4096 T 40 tpc 2: med 2.245 ms, 275.6 GFLOPS (11.4 %), per-token 1888x40960 ms
+X=1 1888x8192 T 1 tpc 2: med 0.113 ms, 272.7 GFLOPS (11.3 %), per-token 1888x81920 ms
+X=1 1888x8192 T 8 tpc 2: med 0.455 ms, 544.4 GFLOPS (22.5 %), per-token 1888x81920 ms
+X=1 1888x8192 T 16 tpc 2: med 1.028 ms, 481.6 GFLOPS (19.9 %), per-token 1888x81920 ms
+X=1 1888x8192 T 40 tpc 2: med 6.494 ms, 190.5 GFLOPS (7.9 %), per-token 1888x81920 ms
+APL_PFX=1 1888x2048 T 8 tpc 2: med 0.101 ms, 614.8 GFLOPS (25.4 %), per-token 1888x20480 ms
+APL_PFX=1 1888x2048 T 16 tpc 2: med 0.218 ms, 567.9 GFLOPS (23.5 %), per-token 1888x20480 ms
+APL_PFX=1 1888x2048 T 40 tpc 2: med 0.597 ms, 518.2 GFLOPS (21.4 %), per-token 1888x20480 ms
+== threads per core, T 16, 2048 cols
+X=1 944x2048 T 16 tpc 1: med 0.178 ms, 347.8 GFLOPS (14.4 %), per-token 944x20480 ms
+X=1 2832x2048 T 16 tpc 3: med 0.251 ms, 739.5 GFLOPS (30.6 %), per-token 2832x20480 ms
+X=1 3776x2048 T 16 tpc 4: med 0.279 ms, 888.1 GFLOPS (36.7 %), per-token 3776x20480 ms

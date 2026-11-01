@@ -1,0 +1,4 @@
+K=0 rc=0 14.671 tok/s (min 14.671 max 14.715); PROMPT 34.099 tok/s | tokens 128 of 128 | 
+K=1 rc=0 16.438 tok/s (min 16.438 max 16.493); PROMPT 34.525 tok/s | tokens 128 of 128 | mtp: 1 drafts per pass: drafted 70, accepted 57 (81.4 %), 70 passes, 1.81 tokens per pass
+K=2 rc=0 15.447 tok/s (min 15.447 max 15.712); PROMPT 34.178 tok/s | tokens 128 of 128 | mtp: 2 drafts per pass: drafted 106, accepted 73 (68.9 %), 54 passes, 2.35 tokens per pass
+K=3 rc=0 14.633 tok/s (min 14.633 max 14.736); PROMPT 34.442 tok/s | tokens 128 of 128 | mtp: 3 drafts per pass: drafted 133, accepted 82 (61.7 %), 45 passes, 2.82 tokens per pass

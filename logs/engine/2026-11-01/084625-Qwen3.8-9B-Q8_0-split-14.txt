@@ -1,0 +1,19 @@
+phictl put: 123424 bytes
+phictl put: 747 bytes
+host worker: 14 threads, waiting for the card
+run 0 (warm-up): prompt 40 tokens 4.997 s = 8.005 tok/s; decode 127 tokens 15.628 s = 8.126 tok/s
+run 1: prompt 40 tokens 4.963 s = 8.060 tok/s; decode 127 tokens 15.630 s = 8.125 tok/s
+run 2: prompt 40 tokens 4.977 s = 8.037 tok/s; decode 127 tokens 15.821 s = 8.028 tok/s
+run 3: prompt 40 tokens 4.966 s = 8.055 tok/s; decode 127 tokens 15.591 s = 8.146 tok/s
+gen 357 2822 369 264 1496 11258 11 1287 33924 15019 3992 421 557 12830 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15 82 13 1049 369 264 61446 11 7737 11 321 74487 3992 421 369 13177 1429 303 5090 4881 11 2583 795 6157 11 11991 23470 11 321 5713 32368 13 357 2822 369 264 15019 3992 421 557 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15 82 13 1049 369 3750 364 1141 61446 321 74487 18890 11 864 5954 364 6150 7289 310 381 5158 303 264 2342 4965 314 1970 13 357 2822 369 264 15019 3992 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15
+all repeats generated the same tokens: yes
+DECODE 8.125 tok/s (median of 3; min 8.028 max 8.146); PROMPT 8.055 tok/s; host threads 14
+feed: 9786060096 B in 584 slots, 3.513 s wall = 2.79 GB/s; file reads 1.981 s = 4.94 GB/s
+arena: 9787408384 B on 2 MiB pages
+received 9786060096 B in 3.283 s = 2.98 GB/s
+file sum 44abf6b42567a697
+F32 weights: 6291456 B on 2 MiB pages
+repack scratch: 25165824 B on 2 MiB pages
+weights ready in 1.280 s: 9512288256 B of Q8_0 repacked in place = 7.43 GB/s
+state: 117440512 B on 2 MiB pages
+following the host's worker

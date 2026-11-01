@@ -1,0 +1,4 @@
+11:19:07 G4       Qwen3.8-9B-Q8_0 rc=0 14.588 tok/s (min 14.540 max 14.623); PROMPT 31.175 tok/s | worked 8.736 ms/token, waited for the card 60.041 ms/token
+11:19:58 Scard    Qwen3.8-9B-Q8_0 rc=0 14.636 tok/s (min 14.591 max 14.647); PROMPT 14.839 tok/s | worked 2.369 ms/token, waited for the card 65.954 ms/token
+11:20:43 G4       Qwen3.8-9B-Q8_0 rc=0 14.580 tok/s (min 14.520 max 14.586); PROMPT 31.376 tok/s | worked 9.001 ms/token, waited for the card 59.870 ms/token
+11:21:34 Scard    Qwen3.8-9B-Q8_0 rc=0 14.486 tok/s (min 14.482 max 14.533); PROMPT 14.701 tok/s | worked 2.595 ms/token, waited for the card 66.459 ms/token

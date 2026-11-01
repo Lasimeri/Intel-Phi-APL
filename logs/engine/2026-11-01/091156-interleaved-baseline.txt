@@ -1,0 +1,26 @@
+ placement: AttnLayer card rows 9 host rows 151 side changes 16 
+ placement: AttnLayer card rows 9 host rows 151 side changes 16 
+09:12:40 llama  Qwen3.8-2B-Q8_0 | decode = = =; prompt = = = | wall 35 s, load 9.76, another process 237 %CPU, vgd 21 %CPU
+09:13:09 engine Qwen3.8-2B-Q8_0 | 24.750 tok/s (median of 3; min 24.678 max 24.807); PROMPT 25.473 tok/s; hos | wall 29 s, load 7.82, another process 244 %CPU, vgd 24 %CPU
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	   33744 kB
+KV cache in system memory: 25165824 B reserved in the region
+09:13:43 llama  Qwen3.8-2B-Q8_0 | decode = = =; prompt = = = | wall 34 s, load 9.76, another process 241 %CPU, vgd 21 %CPU
+09:14:11 engine Qwen3.8-2B-Q8_0 | 24.842 tok/s (median of 3; min 24.821 max 24.950); PROMPT 25.708 tok/s; hos | wall 28 s, load 7.67, another process 246 %CPU, vgd 24 %CPU
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	   33684 kB
+KV cache in system memory: 25165824 B reserved in the region
+09:16:48 llama  Qwen3.8-9B-Q8_0 | decode = = =; prompt = = = | wall 156 s, load 15.02, another process 242 %CPU, vgd 21 %CPU
+09:18:15 engine Qwen3.8-9B-Q8_0 | 8.279 tok/s (median of 3; min 8.276 max 8.283); PROMPT 8.286 tok/s; host th | wall 86 s, load 6.80, another process 241 %CPU, vgd 26 %CPU
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	   78716 kB
+KV cache in system memory: 67108864 B reserved in the region
+09:20:40 llama  Qwen3.8-9B-Q8_0 | decode = = =; prompt = = = | wall 144 s, load 13.14, another process 243 %CPU, vgd 21 %CPU
+09:22:13 engine Qwen3.8-9B-Q8_0 | 7.755 tok/s (median of 3; min 7.745 max 7.761); PROMPT 7.738 tok/s; host th | wall 92 s, load 6.06, another process 241 %CPU, vgd 27 %CPU
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	   78856 kB
+KV cache in system memory: 67108864 B reserved in the region
+09:23:43 engine KV_PRODUCTS=host Qwen3.8-9B-Q8_0 | 8.456 tok/s (median of 3; min 8.455 max 8.456); PROMPT 8.510 tok/s; host th | wall 85 s, load 4.47, another process 240 %CPU, vgd 27 %CPU
+    tokens vs llama.cpp: same 128 of 128
+host memory: peak RSS 	   78624 kB
+KV cache in system memory: 67108864 B reserved in the region

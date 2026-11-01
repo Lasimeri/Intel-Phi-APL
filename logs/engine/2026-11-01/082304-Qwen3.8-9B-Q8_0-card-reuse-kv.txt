@@ -1,0 +1,8 @@
+phictl put: 380880 bytes
+phictl put: 747 bytes
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 127.0.0.1 port 2222
+apl_feed: no card after 120 s
+tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+card rc=2

@@ -1,0 +1,12 @@
+MT2  K=0 14.912 tok/s (min 14.912 max 15.078); PROMPT 33.962 tok/s
+MT3  K=0 14.740 tok/s (min 14.740 max 14.846); PROMPT 31.607 tok/s
+MT2  K=1 16.145 tok/s (min 16.145 max 16.185); PROMPT 33.995 tok/s
+MT3  K=1 16.275 tok/s (min 16.275 max 16.454); PROMPT 31.322 tok/s
+MT2  K=0 15.089 tok/s (min 15.089 max 15.269); PROMPT 32.884 tok/s
+MT3  K=0 15.103 tok/s (min 15.103 max 15.212); PROMPT 32.938 tok/s
+MT2  K=1 15.993 tok/s (min 15.993 max 16.588); PROMPT 33.620 tok/s
+MT3  K=1 17.567 tok/s (min 17.567 max 17.933); PROMPT 32.617 tok/s
+MT2  K=0 15.163 tok/s (min 15.163 max 15.198); PROMPT 33.580 tok/s
+MT3  K=0 15.155 tok/s (min 15.155 max 15.226); PROMPT 32.900 tok/s
+MT2  K=1 16.275 tok/s (min 16.275 max 16.361); PROMPT 32.607 tok/s
+MT3  K=1 17.727 tok/s (min 17.727 max 17.870); PROMPT 32.347 tok/s

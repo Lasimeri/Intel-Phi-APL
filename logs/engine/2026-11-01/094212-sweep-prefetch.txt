@@ -1,0 +1,29 @@
+== barrier
+threads 118: barrier 10.97 us, empty team_run 14.00 us
+threads 118: barrier 11.90 us, empty team_run 14.32 us
+== pf_l2 sweep, L1 1024, tpc 2
+I 248320x2048 tpc 2 cores 59 threads 118 pf 0,1024: min 6.233 med 6.345 max 6.495 ms; 85.2 GB/s (51.9% of 164), 160.3 GFLOPS (6.6%
+I 248320x2048 tpc 2 cores 59 threads 118 pf 512,1024: min 5.720 med 5.822 max 5.899 ms; 92.8 GB/s (56.6% of 164), 174.7 GFLOPS (7.
+I 248320x2048 tpc 2 cores 59 threads 118 pf 1024,1024: min 4.370 med 4.477 max 4.578 ms; 120.7 GB/s (73.6% of 164), 227.2 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 2048,1024: min 3.540 med 3.656 max 3.829 ms; 147.8 GB/s (90.1% of 164), 278.2 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 4096,1024: min 8.840 med 9.581 max 10.392 ms; 56.4 GB/s (34.4% of 164), 106.2 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 8192,1024: min 11.753 med 12.627 max 13.360 ms; 42.8 GB/s (26.1% of 164), 80.5 GFLOPS 
+I 248320x2048 tpc 2 cores 59 threads 118 pf 16384,1024: min 6.882 med 7.803 max 9.542 ms; 69.2 GB/s (42.2% of 164), 130.4 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,1024: min 3.551 med 3.663 max 3.847 ms; 147.5 GB/s (89.9% of 164), 277.6 GFLOPS 
+I 248320x2048 tpc 2 cores 59 threads 118 pf 65536,1024: min 3.414 med 3.521 max 3.692 ms; 153.4 GB/s (93.6% of 164), 288.8 GFLOPS 
+I 248320x2048 tpc 2 cores 59 threads 118 pf 131072,1024: min 7.881 med 8.784 max 9.396 ms; 61.5 GB/s (37.5% of 164), 115.8 GFLOPS 
+== pf_l1, L2 32768
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,128: min 3.741 med 3.833 max 3.921 ms; 141.0 GB/s (86.0% of 164), 265.4 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,256: min 3.649 med 3.879 max 5.559 ms; 139.3 GB/s (84.9% of 164), 262.2 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,512: min 3.700 med 3.926 max 4.086 ms; 137.6 GB/s (83.9% of 164), 259.1 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,2048: min 2.988 med 3.042 max 3.097 ms; 177.6 GB/s (108.3% of 164), 334.3 GFLOPS
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,4096: min 2.993 med 3.038 max 3.081 ms; 177.9 GB/s (108.5% of 164), 334.8 GFLOPS
+== threads per core
+I 248320x2048 tpc 1 cores 59 threads 59 pf 32768,1024: min 4.134 med 4.478 max 4.843 ms; 120.7 GB/s (73.6% of 164), 227.2 GFLOPS (
+I 248320x2048 tpc 2 cores 59 threads 118 pf 32768,1024: min 3.353 med 3.539 max 3.819 ms; 152.7 GB/s (93.1% of 164), 287.4 GFLOPS 
+I 248320x2048 tpc 3 cores 59 threads 177 pf 32768,1024: min 3.122 med 3.222 max 3.352 ms; 167.7 GB/s (102.3% of 164), 315.7 GFLOPS
+I 248320x2048 tpc 4 cores 59 threads 236 pf 32768,1024: min 3.172 med 3.308 max 3.431 ms; 163.3 GB/s (99.6% of 164), 307.4 GFLOPS 
+I 248320x2048 tpc 2 cores 61 threads 122 pf 32768,1024: min 3.818 med 3.954 max 4.324 ms; 136.7 GB/s (83.3% of 164), 257.3 GFLOPS 
+I 248320x2048 tpc 2 cores 60 threads 120 pf 32768,1024: min 3.717 med 3.874 max 4.033 ms; 139.5 GB/s (85.0% of 164), 262.5 GFLOPS 
+== few-group matrices, bandwidth (2B sizes)
+== 9B sizes

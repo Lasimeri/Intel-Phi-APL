@@ -1,0 +1,17 @@
+date     2026-11-01 06:12:17 CST
+engine   /media/1TB-NVMe/Intel-Phi-APL (git no commits)
+stack    /media/1TB-NVMe/Xeon-Phi/Intel Phi 7120A (git aeb1d1c)
+vpu cc   clang version 23.1.1 (https://github.com/llvm/llvm-project.git 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)
+host cc  cc (GCC) 16.2.1 20260810
+card     0 0000:2f:00.0
+host     AMD Ryzen 7 5800X 8-Core Processor, load 4.14 3.76 3.28
+llama    /home/lasimeri/llama.cpp (git f5b9bd3), CPU only
+
+model /media/1TB-NVMe/Intel-Phi-APL/input/models/Qwen3.8-9B-Q8_0.gguf
+vocab 248320  prompt 40 tokens  gen 128 tokens  threads 8  repeats 3 (+1 warm-up)
+warmup 0  prompt   40 tok   3204.69 ms =    12.48 tok/s (one batch)  decode  127 tok  33697.00 ms =   3.769 tok/s
+repeat 1  prompt   40 tok   1581.23 ms =    25.30 tok/s (one batch)  decode  127 tok  33395.87 ms =   3.803 tok/s
+repeat 2  prompt   40 tok   1427.92 ms =    28.01 tok/s (one batch)  decode  127 tok  33624.88 ms =   3.777 tok/s
+repeat 3  prompt   40 tok   1467.12 ms =    27.26 tok/s (one batch)  decode  127 tok  33385.00 ms =   3.804 tok/s
+deterministic: every repeat generated the same tokens
+reference data: out/ref/Qwen3.8-9B-Q8_0

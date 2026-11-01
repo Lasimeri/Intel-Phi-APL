@@ -1,0 +1,37 @@
+phictl put: 387280 bytes
+phictl put: 766 bytes
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.639 s = 3.25 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.305 s: 1998856192 B of Q8_0 repacked in place = 6.55 GB/s
+state: 46137344 B on 2 MiB pages
+frame: 35651584 B on 2 MiB pages
+run 0 (warm-up): prompt 40 tokens 2.983 s = 13.408 tok/s; decode 127 tokens 10.512 s = 12.081 tok/s
+run 1: prompt 40 tokens 2.975 s = 13.446 tok/s; decode 127 tokens 10.503 s = 12.092 tok/s
+run 2: prompt 40 tokens 2.966 s = 13.485 tok/s; decode 127 tokens 10.498 s = 12.098 tok/s
+profile of the last decode, 127 tokens, 82.658 ms per token of wall time:
+  gemv >=100000 rows              1.0 calls/token     5.230 ms/token   6.3 %
+  gemv >=512 rows               150.0 calls/token    21.251 ms/token  25.7 %
+  gemv <512 rows                 36.0 calls/token     1.701 ms/token   2.1 %
+  elementwise, team              18.0 calls/token     0.775 ms/token   0.9 %
+  elementwise, one thread      3609.0 calls/token    21.665 ms/token  26.2 %
+  +/                           1021.0 calls/token     0.284 ms/token   0.3 %
+  max/                           49.0 calls/token     0.802 ms/token   1.0 %
+  index-of                        1.0 calls/token     0.048 ms/token   0.1 %
+  +⌿                           18.0 calls/token     1.831 ms/token   2.2 %
+  inner 2 1                      42.0 calls/token     1.422 ms/token   1.7 %
+  inner 1 2                       6.0 calls/token     1.906 ms/token   2.3 %
+  outer 1 1                      18.0 calls/token     0.788 ms/token   1.0 %
+  scale 0 n                      36.0 calls/token     0.857 ms/token   1.0 %
+  embedding row                   1.0 calls/token     0.081 ms/token   0.1 %
+  catenate                      120.0 calls/token     0.071 ms/token   0.1 %
+  index                          78.0 calls/token     9.745 ms/token  11.8 %
+  transpose                      12.0 calls/token    10.706 ms/token  13.0 %
+  memcpy (generated)           1110.0 calls/token     2.026 ms/token   2.5 %
+  sum of the above                                   81.189 ms/token (at 1238.094 MHz)
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 12.092 tok/s (median of 2; min 12.092 max 12.098); PROMPT 13.446 tok/s; tpc 2 cores 59 threads 118; Q8_0 2.00 GB per token = 24.2 GB/s (arithmetic, not all of a token's time)
+feed: 2076674432 B in 124 slots, 0.686 s wall = 3.03 GB/s; file reads 0.370 s = 5.61 GB/s

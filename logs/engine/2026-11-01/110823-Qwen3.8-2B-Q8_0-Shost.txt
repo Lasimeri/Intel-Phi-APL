@@ -1,0 +1,24 @@
+phictl put: 124288 bytes
+phictl put: 766 bytes
+host worker: 1 threads, waiting for the card
+host in decode: worked 3.329 ms/token, waited for the card 17.435 ms/token, 98.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 0.814 s = 49.137 tok/s; decode 127 tokens 2.637 s = 48.159 tok/s
+host in decode: worked 3.321 ms/token, waited for the card 17.365 ms/token, 98.0 exchanges/token
+run 1: prompt 40 tokens 0.822 s = 48.649 tok/s; decode 127 tokens 2.627 s = 48.341 tok/s
+host in decode: worked 3.311 ms/token, waited for the card 17.360 ms/token, 98.0 exchanges/token
+run 2: prompt 40 tokens 0.815 s = 49.100 tok/s; decode 127 tokens 2.625 s = 48.378 tok/s
+host in decode: worked 3.422 ms/token, waited for the card 17.347 ms/token, 98.0 exchanges/token
+run 3: prompt 40 tokens 0.815 s = 49.059 tok/s; decode 127 tokens 2.638 s = 48.149 tok/s
+host memory: peak RSS 	   51908 kB
+KV cache in system memory: 25165824 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 48.341 tok/s (median of 3; min 48.149 max 48.378); PROMPT 49.059 tok/s; host threads 1
+feed: 2076674432 B in 124 slots, 0.681 s wall = 3.05 GB/s; file reads 0.370 s = 5.61 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.633 s = 3.28 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.248 s: 1998856192 B of Q8_0 repacked in place = 8.06 GB/s
+following the host's worker

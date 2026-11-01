@@ -1,0 +1,8 @@
+trip       64 B: min    4.29 med    5.03 p99     7.85 max    78.68 us; bytes identical
+trip     1024 B: min    5.06 med    5.52 p99    12.73 max    60.87 us; bytes identical
+trip     8192 B: min    8.87 med    9.43 p99    15.15 max    26.59 us; bytes identical
+trip    16384 B: min   13.41 med   13.97 p99    21.26 max    26.95 us; bytes identical
+trip    24576 B: min   17.90 med   18.44 p99    25.78 max    33.73 us; bytes identical
+trip    49152 B: min   31.33 med   31.97 p99    43.41 max    48.66 us; bytes identical
+trip    65536 B: min   40.40 med   40.95 p99    42.93 max    55.65 us; bytes identical
+cross_host: no answer for size 1048576

@@ -1,0 +1,18 @@
+== one thread: raw cycles per FMA (16 rows, 256 cols: all in L1)
+16x256 T 1 tpc 1 cores 1: min 0.002 med 0.002 ms, 3.9 GFLOPS (0.2 %), differ 16x2561
+16x256 T 2 tpc 1 cores 1: min 0.003 med 0.003 ms, 6.4 GFLOPS (0.3 %), differ 16x2561
+16x256 T 4 tpc 1 cores 1: min 0.004 med 0.004 ms, 7.7 GFLOPS (0.3 %), differ 16x2561
+16x256 T 8 tpc 1 cores 1: min 0.007 med 0.007 ms, 8.9 GFLOPS (0.4 %), differ 16x2561
+== one core, 2 threads
+32x256 T 1 tpc 2 cores 1: min 0.003 med 0.003 ms, 5.6 GFLOPS (0.2 %), differ 32x2561
+32x256 T 8 tpc 2 cores 1: min 0.009 med 0.009 ms, 14.6 GFLOPS (0.6 %), differ 32x2561
+== all 59 cores, one group per thread, all in L1
+1888x256 T 1 tpc 2 cores 59: min 0.013 med 0.014 ms, 69.2 GFLOPS (2.9 %), differ 1888x2561
+1888x256 T 4 tpc 2 cores 59: min 0.014 med 0.016 ms, 248.8 GFLOPS (10.3 %), differ 1888x2561
+1888x256 T 8 tpc 2 cores 59: min 0.017 med 0.018 ms, 431.3 GFLOPS (17.8 %), differ 1888x2561
+1888x256 T 16 tpc 2 cores 59: min 0.028 med 0.030 ms, 516.6 GFLOPS (21.4 %), differ 1888x2561
+1888x256 T 8 tpc 2 cores 59: min 0.018 med 0.019 ms, 413.1 GFLOPS (17.1 %), differ 1888x2561
+1888x256 T 16 tpc 2 cores 59: min 0.031 med 0.032 ms, 482.1 GFLOPS (19.9 %), differ 1888x2561
+== tpc 1 and 4 at T 8
+944x256 T 8 tpc 1 cores 59: min 0.016 med 0.017 ms, 223.7 GFLOPS (9.3 %), differ 944x2561
+3776x256 T 8 tpc 4 cores 59: min 0.025 med 0.026 ms, 591.8 GFLOPS (24.5 %), differ 3776x2561

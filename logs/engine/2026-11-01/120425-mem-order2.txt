@@ -1,0 +1,17 @@
+card 0, 7120A, 2 per core on 59 cores, 1536 MiB, read only, cursors
+mem_order chunk 13649216 threads 118: median 128.73 GB/s (126.92-129.56) over 1610607488 B; lanes summed 25165742
+mem_order chunk 1048576 threads 118: median 129.51 GB/s (127.17-131.40) over 1608515584 B; lanes summed 25133056
+mem_order chunk 262144 threads 118: median 133.16 GB/s (131.45-133.92) over 1608515584 B; lanes summed 25133056
+mem_order chunk 65536 threads 118: median 139.08 GB/s (132.05-139.85) over 1608515584 B; lanes summed 25133056
+mem_order chunk 16384 threads 118: median 143.43 GB/s (143.10-143.78) over 1610448896 B; lanes summed 25163264
+mem_order chunk 4096 threads 118: median 142.21 GB/s (140.44-142.93) over 1610448896 B; lanes summed 25163264
+mem_order chunk 1024 threads 118: median 67.04 GB/s (66.85-67.30) over 1610569728 B; lanes summed 25165152
+mem_order chunk 256 threads 118: median 32.22 GB/s (32.19-32.23) over 1610599936 B; lanes summed 25165624
+mem_order chunk 13649216 threads 118: median 128.87 GB/s (127.47-130.55) over 1610607488 B; lanes summed 25165742
+mem_order chunk 1048576 threads 118: median 125.34 GB/s (120.03-129.23) over 1608515584 B; lanes summed 25133056
+mem_order chunk 262144 threads 118: median 134.07 GB/s (133.35-134.49) over 1608515584 B; lanes summed 25133056
+mem_order chunk 65536 threads 118: median 138.81 GB/s (137.39-139.25) over 1608515584 B; lanes summed 25133056
+mem_order chunk 16384 threads 118: median 143.97 GB/s (142.84-144.23) over 1610448896 B; lanes summed 25163264
+mem_order chunk 4096 threads 118: median 141.26 GB/s (114.93-142.70) over 1610448896 B; lanes summed 25163264
+mem_order chunk 1024 threads 118: median 66.98 GB/s (66.63-67.30) over 1610569728 B; lanes summed 25165152
+mem_order chunk 256 threads 118: median 32.23 GB/s (32.18-32.23) over 1610599936 B; lanes summed 25165624

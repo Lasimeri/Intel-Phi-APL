@@ -1,0 +1,35 @@
+phictl put: 132320 bytes
+phictl put: 766 bytes
+host worker: 1 threads, waiting for the card
+host in decode: worked 0.960 ms/token, waited for the card 21.141 ms/token, 116.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 0.880 s = 45.452 tok/s; decode 127 tokens 2.807 s = 45.248 tok/s
+host in decode: worked 0.961 ms/token, waited for the card 21.175 ms/token, 116.0 exchanges/token
+run 1: prompt 40 tokens 0.868 s = 46.061 tok/s; decode 127 tokens 2.811 s = 45.175 tok/s
+host in decode: worked 0.998 ms/token, waited for the card 21.220 ms/token, 116.0 exchanges/token
+run 2: prompt 40 tokens 0.873 s = 45.828 tok/s; decode 127 tokens 2.822 s = 45.008 tok/s
+host memory: peak RSS 	   33516 kB
+KV cache in system memory: 25165824 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 45.008 tok/s (median of 2; min 45.008 max 45.175); PROMPT 45.828 tok/s; host threads 1
+feed: 2076674432 B in 124 slots, 0.682 s wall = 3.05 GB/s; file reads 0.367 s = 5.66 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.634 s = 3.28 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.244 s: 1998856192 B of Q8_0 repacked in place = 8.18 GB/s
+state: 18874368 B on 2 MiB pages
+following the host's worker
+profile of the last decode, 501 tokens, 22.064 ms per token of wall time:
+  gemv >=100000 rows              1.0 calls/token     3.172 ms/token  14.4 %
+  gemv >=512 rows                96.0 calls/token    12.609 ms/token  57.1 %
+  elementwise, one thread        18.0 calls/token     0.245 ms/token   1.1 %
+  inner 2 1                      36.0 calls/token     1.188 ms/token   5.4 %
+  outer 1 1                      18.0 calls/token     0.536 ms/token   2.4 %
+  scale 0 n                      36.0 calls/token     0.689 ms/token   3.1 %
+  embedding row                   1.0 calls/token     0.082 ms/token   0.4 %
+  waiting for the host          116.0 calls/token     1.586 ms/token   7.2 %
+  DMA copies, submit + wait     509.0 calls/token     1.256 ms/token   5.7 %
+  phase done, submit            116.0 calls/token     0.057 ms/token   0.3 %
+  sum of the above                                   21.422 ms/token (at 1238.094 MHz)

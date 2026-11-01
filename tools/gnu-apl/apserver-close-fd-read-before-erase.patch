@@ -1,0 +1,31 @@
+--- a/src/APs/APserver.cc	2026-11-01 06:19:02.665703724 -0600
++++ b/src/APs/APserver.cc	2026-11-01 06:19:24.099338101 -0600
+@@ -320,26 +320,26 @@
+             {
+               found_fd = true;
+               removed_AP = connected_procs[j].ap3;
++              removed_fd2 = connected_procs[j].fd2;   // before the erase
+               connected_procs.erase(connected_procs.begin() + j);
+               (verbosity > 0) && cerr << "erased fd " << fd << " (Id "
+                                       << removed_AP.proc << ":"
+                                       << removed_AP.parent << ":"
+                                       << removed_AP.grand
+                                       << ") from connected_procs" << endl;
+-              removed_fd2 = connected_procs[j].fd2;
+               break;
+             }
+          else if (fd == connected_procs[j].fd2)
+             {
+               found_fd = true;
+               removed_AP = connected_procs[j].ap3;
++              removed_fd2 = connected_procs[j].fd;    // before the erase
+               connected_procs.erase(connected_procs.begin() + j);
+               (verbosity > 0) && cerr << "erased fd " << fd << " (Id "
+                                       << removed_AP.proc << ":"
+                                       << removed_AP.parent << ":"
+                                       << removed_AP.grand
+                                       << ") from connected_procs" << endl;
+-              removed_fd2 = connected_procs[j].fd;
+               break;
+             }
+        }

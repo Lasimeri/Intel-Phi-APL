@@ -1,0 +1,4 @@
+K=0 rc=3  | tokens 0 of -1 | 
+K=1 rc=3  | tokens 0 of -1 | mtp: 1 drafts per pass: drafted 126, accepted 0 (0.0 %), 127 passes, 1.00 tokens per pass
+K=2 rc=3  | tokens 0 of -1 | 
+K=3 rc=3  | tokens 0 of -1 | mtp: 3 drafts per pass: drafted 375, accepted 0 (0.0 %), 127 passes, 1.00 tokens per pass

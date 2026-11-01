@@ -1,0 +1,9 @@
+base       rc=0 15.384 tok/s (min 15.384 max 15.387); PROMPT 37.254 tok/s | big 6.261 mid calls/token
+from900    rc=0 14.408 tok/s (min 14.408 max 14.498); PROMPT 37.591 tok/s | big 8.700 mid calls/token
+from500    rc=0 14.296 tok/s (min 14.296 max 14.343); PROMPT 36.742 tok/s | big 8.714 mid calls/token
+base       rc=0 15.479 tok/s (min 15.479 max 15.512); PROMPT 35.820 tok/s | big 6.197 mid calls/token
+from900    rc=0 14.746 tok/s (min 14.746 max 14.829); PROMPT 37.232 tok/s | big 8.708 mid calls/token
+from500    rc=0 14.469 tok/s (min 14.469 max 14.535); PROMPT 36.459 tok/s | big 8.642 mid calls/token
+base       rc=0 15.355 tok/s (min 15.355 max 15.379); PROMPT 36.760 tok/s | big 6.173 mid calls/token
+from900    rc=0 14.725 tok/s (min 14.725 max 14.833); PROMPT 35.934 tok/s | big 8.687 mid calls/token
+from500    rc=0 14.265 tok/s (min 14.265 max 14.369); PROMPT 36.864 tok/s | big 8.680 mid calls/token

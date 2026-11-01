@@ -1,0 +1,28 @@
+phictl put: 134960 bytes
+phictl put: 766 bytes
+host worker: 1 threads, waiting for the card
+host in prompt: worked 1.727 ms/token, waited for the card 7.319 ms/token, 7.0 exchanges/token
+host in decode: worked 3.282 ms/token, waited for the card 18.840 ms/token, 98.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 0.362 s = 110.546 tok/s; decode 127 tokens 2.810 s = 45.203 tok/s
+host in prompt: worked 1.745 ms/token, waited for the card 7.238 ms/token, 7.0 exchanges/token
+host in decode: worked 3.329 ms/token, waited for the card 18.814 ms/token, 98.0 exchanges/token
+run 1: prompt 40 tokens 0.359 s = 111.324 tok/s; decode 127 tokens 2.812 s = 45.161 tok/s
+host in prompt: worked 1.742 ms/token, waited for the card 7.274 ms/token, 7.0 exchanges/token
+host in decode: worked 3.590 ms/token, waited for the card 18.858 ms/token, 98.0 exchanges/token
+run 2: prompt 40 tokens 0.361 s = 110.904 tok/s; decode 127 tokens 2.851 s = 44.548 tok/s
+host in prompt: worked 1.839 ms/token, waited for the card 7.301 ms/token, 7.0 exchanges/token
+host in decode: worked 3.218 ms/token, waited for the card 18.779 ms/token, 98.0 exchanges/token
+run 3: prompt 40 tokens 0.366 s = 109.405 tok/s; decode 127 tokens 2.794 s = 45.462 tok/s
+host memory: peak RSS 	   52088 kB
+KV cache in system memory: 25165824 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 45.161 tok/s (median of 3; min 44.548 max 45.462); PROMPT 110.904 tok/s; host threads 1
+feed: 2076674432 B in 124 slots, 0.686 s wall = 3.03 GB/s; file reads 0.372 s = 5.58 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.639 s = 3.25 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.252 s: 1998856192 B of Q8_0 repacked in place = 7.94 GB/s
+following the host's worker

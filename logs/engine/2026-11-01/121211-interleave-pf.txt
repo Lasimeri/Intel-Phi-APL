@@ -1,0 +1,17 @@
+base                   rc=0 15.129 tok/s (min 15.129 max 15.358) | big 6.163 mid 49.221 ms/token
+il900-pf0-0            rc=0 14.592 tok/s (min 14.592 max 14.687) | big 9.053 mid 49.300 ms/token
+il900-pf1088-544       rc=0 14.643 tok/s (min 14.643 max 14.686) | big 8.520 mid 49.239 ms/token
+il900-pf2176-1088      rc=0 14.220 tok/s (min 14.220 max 14.297) | big 10.029 mid 49.199 ms/token
+il900-pf4352-2176      rc=0 12.607 tok/s (min 12.607 max 12.628) | big 19.662 mid 49.102 ms/token
+il900-pf8704-2176      rc=0 13.588 tok/s (min 13.588 max 13.649) | big 13.342 mid 49.368 ms/token
+il900-pf16384-2176     rc=0 15.049 tok/s (min 15.049 max 15.068) | big 7.530 mid 49.172 ms/token
+base                   rc=0 15.285 tok/s (min 15.285 max 15.365) | big 6.168 mid 49.394 ms/token
+il900-pf0-0            rc=0 14.698 tok/s (min 14.698 max 14.701) | big 9.049 mid 49.391 ms/token
+il900-pf1088-544       rc=0 14.350 tok/s (min 14.350 max 14.571) | big 8.406 mid 49.251 ms/token
+il900-pf2176-1088      rc=0 14.490 tok/s (min 14.490 max 14.500) | big 9.934 mid 49.352 ms/token
+il900-pf4352-2176      rc=0 12.802 tok/s (min 12.802 max 12.821) | big 19.506 mid 49.199 ms/token
+il900-pf8704-2176      rc=0 13.752 tok/s (min 13.752 max 13.835) | big 13.484 mid 49.514 ms/token
+il900-pf16384-2176     rc=0 15.150 tok/s (min 15.150 max 15.155) | big 7.480 mid 49.064 ms/token
+il500-pf1088-544       rc=0 11.724 tok/s (min 11.724 max 11.747) | big 8.403 mid 67.145 ms/token
+il500-pf4352-2176      rc=0 6.536 tok/s (min 6.536 max 6.540) | big 20.163 mid 122.579 ms/token
+base                   rc=0 15.292 tok/s (min 15.292 max 15.401) | big 6.141 mid 49.160 ms/token

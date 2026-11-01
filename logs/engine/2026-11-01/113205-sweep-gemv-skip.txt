@@ -1,0 +1,12 @@
+tpc2             rc=0 14.624 tok/s (min 14.624 max 14.706); PROMPT 31.133 tok/s | worked 7.899 ms/token, waited for the card 60.102 ms/token
+tpc3-skip        rc=0 14.375 tok/s (min 14.375 max 14.408); PROMPT 35.350 tok/s | worked 8.333 ms/token, waited for the card 61.072 ms/token
+tpc3-all         rc=0 14.399 tok/s (min 14.399 max 14.436); PROMPT 34.526 tok/s | worked 8.354 ms/token, waited for the card 60.918 ms/token
+tpc4-skip        rc=0 14.156 tok/s (min 14.156 max 14.286); PROMPT 33.952 tok/s | worked 8.362 ms/token, waited for the card 61.639 ms/token
+tpc2             rc=0 14.662 tok/s (min 14.662 max 14.700); PROMPT 30.629 tok/s | worked 8.123 ms/token, waited for the card 59.903 ms/token
+tpc3-skip        rc=0 14.263 tok/s (min 14.263 max 14.276); PROMPT 34.584 tok/s | worked 8.211 ms/token, waited for the card 61.836 ms/token
+tpc3-all         rc=0 14.488 tok/s (min 14.488 max 14.547); PROMPT 35.210 tok/s | worked 8.006 ms/token, waited for the card 60.735 ms/token
+tpc4-skip        rc=0 14.227 tok/s (min 14.227 max 14.232); PROMPT 33.899 tok/s | worked 8.414 ms/token, waited for the card 61.850 ms/token
+tpc2             rc=0 14.678 tok/s (min 14.678 max 14.709); PROMPT 30.506 tok/s | worked 8.235 ms/token, waited for the card 59.896 ms/token
+tpc3-skip        rc=0 14.301 tok/s (min 14.301 max 14.306); PROMPT 34.058 tok/s | worked 8.121 ms/token, waited for the card 61.779 ms/token
+tpc3-all         rc=0 14.304 tok/s (min 14.304 max 14.433); PROMPT 33.966 tok/s | worked 8.264 ms/token, waited for the card 61.021 ms/token
+tpc4-skip        rc=0 14.167 tok/s (min 14.167 max 14.175); PROMPT 34.034 tok/s | worked 8.442 ms/token, waited for the card 62.107 ms/token

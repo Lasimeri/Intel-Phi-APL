@@ -1,0 +1,10 @@
+gemm 248320x2048 T 1 tpc 2 cores 59 threads 118 pf 32768,2048: min 3.356 med 3.397 max 3.456 ms; 299.4 GFLOPS (12.4% of 2417), 159.0 GB/s; one matvec per token: 3.073 ms, 331.0 GFLOPS; 0.90x; lanes differing 0 of 248320
+rc=0
+gemm 248320x2048 T 8 tpc 2 cores 59 threads 118 pf 32768,2048: min 13.180 med 13.252 max 18.459 ms; 614.0 GFLOPS (25.4% of 2417), 40.8 GB/s; one matvec per token: 24.477 ms, 332.4 GFLOPS; 1.85x; lanes differing 0 of 1986560
+rc=0
+gemm 248320x2048 T 16 tpc 2 cores 59 threads 118 pf 32768,2048: min 26.070 med 26.231 max 26.473 ms; 620.4 GFLOPS (25.7% of 2417), 20.6 GB/s; one matvec per token: 49.118 ms, 331.3 GFLOPS; 1.87x; lanes differing 0 of 3973120
+rc=0
+gemm 248320x2048 T 40 tpc 2 cores 59 threads 118 pf 32768,2048: min 111.970 med 114.462 max 117.016 ms; 355.4 GFLOPS (14.7% of 2417), 4.7 GB/s; one matvec per token: 122.086 ms, 333.2 GFLOPS; 1.07x; lanes differing 0 of 9932800
+rc=0
+gemm 248320x2048 T 64 tpc 2 cores 59 threads 118 pf 32768,2048: min 305.222 med 305.648 max 308.645 ms; 213.0 GFLOPS (8.8% of 2417), 1.8 GB/s; one matvec per token: 200.604 ms, 324.5 GFLOPS; 0.66x; lanes differing 0 of 15892480
+rc=0

@@ -1,0 +1,23 @@
+-2                 tpc 2 cores 59 rc=0 45.810 tok/s (min 45.810 max 46.068) | wait 20.734 ms
+-2                 tpc 1 cores 59 rc=0 37.518 tok/s (min 37.518 max 37.552) | wait 25.655 ms
+-2                 tpc 3 cores 59 rc=0 45.355 tok/s (min 45.355 max 45.460) | wait 21.072 ms
+-2                 tpc 4 cores 59 rc=0 45.641 tok/s (min 45.641 max 45.772) | wait 20.950 ms
+-2                 tpc 2 cores 59 rc=0 45.658 tok/s (min 45.658 max 45.670) | wait 20.927 ms
+-2                 tpc 2 cores 60 rc=0 41.575 tok/s (min 41.575 max 41.918) | wait 22.880 ms
+-2                 tpc 2 cores 61 rc=0 41.928 tok/s (min 41.928 max 42.061) | wait 22.859 ms
+-2                 tpc 2 cores 40 rc=0 41.202 tok/s (min 41.202 max 41.232) | wait 23.279 ms
+-2                 tpc 2 cores 59 rc=0 45.784 tok/s (min 45.784 max 45.821) | wait 20.874 ms
+profile of the last decode, 334 tokens, 68.543 ms per token of wall time:
+  gemv >=100000 rows              1.0 calls/token     6.375 ms/token   9.3 %
+  gemv >=512 rows               128.0 calls/token    50.786 ms/token  74.1 %
+  elementwise, one thread        24.0 calls/token     0.589 ms/token   0.9 %
+  inner 2 1                      48.0 calls/token     1.399 ms/token   2.0 %
+  outer 1 1                      24.0 calls/token     0.742 ms/token   1.1 %
+  scale 0 n                      48.0 calls/token     1.159 ms/token   1.7 %
+  embedding row                   1.0 calls/token     0.172 ms/token   0.3 %
+  waiting for the host          154.0 calls/token     3.812 ms/token   5.6 %
+  DMA copies, submit + wait     677.0 calls/token     2.499 ms/token   3.6 %
+  phase done, submit            154.0 calls/token     0.093 ms/token   0.1 %
+  sum of the above                                   67.625 ms/token (at 1238.094 MHz)
+-9                 tpc 3 cores 59 rc=0 14.619 tok/s (min 14.619 max 14.620) | wait 66.199 ms
+-9                 tpc 2 cores 59 rc=0 14.494 tok/s (min 14.494 max 14.496) | wait 66.796 ms

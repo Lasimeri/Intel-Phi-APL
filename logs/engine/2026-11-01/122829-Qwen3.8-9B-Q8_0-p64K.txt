@@ -1,0 +1,25 @@
+phictl put: 143976 bytes
+phictl put: 747 bytes
+host worker: 4 threads, waiting for the card
+host in prompt: worked 2.800 ms/token, waited for the card 24.923 ms/token, 8.2 exchanges/token
+host in decode: worked 6.683 ms/token, waited for the card 57.792 ms/token, 130.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 1.109 s = 36.071 tok/s; decode 63 tokens 4.062 s = 15.510 tok/s
+host in prompt: worked 2.234 ms/token, waited for the card 25.603 ms/token, 8.2 exchanges/token
+host in decode: worked 5.174 ms/token, waited for the card 57.689 ms/token, 130.0 exchanges/token
+run 1: prompt 40 tokens 1.113 s = 35.923 tok/s; decode 63 tokens 3.960 s = 15.908 tok/s
+host in prompt: worked 2.026 ms/token, waited for the card 25.602 ms/token, 8.2 exchanges/token
+host in decode: worked 4.515 ms/token, waited for the card 57.724 ms/token, 130.0 exchanges/token
+run 2: prompt 40 tokens 1.105 s = 36.194 tok/s; decode 63 tokens 3.921 s = 16.067 tok/s
+host memory: peak RSS 	  130444 kB
+KV cache in system memory: 67108864 B reserved in the region
+gen 357 2822 369 264 1496 11258 11 1287 33924 15019 3992 421 557 12830 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15 82 13 1049 369 264 61446 11 7737 11 321 74487 3992 421 369 13177 1429 303 5090 4881 11 2583 795 6157 11 11991 23470 11 321 5713 32368 13 357 2822 369 264 15019
+all repeats generated the same tokens: yes
+DECODE 15.908 tok/s (median of 2; min 15.908 max 16.067); PROMPT 35.923 tok/s; host threads 4
+feed: 9786060096 B in 584 slots, 3.220 s wall = 3.04 GB/s; file reads 1.719 s = 5.69 GB/s
+arena: 9787408384 B on 2 MiB pages
+received 9786060096 B in 2.990 s = 3.27 GB/s
+file sum 44abf6b42567a697
+F32 weights: 6291456 B on 2 MiB pages
+repack scratch: 25165824 B on 2 MiB pages
+weights ready in 1.019 s: 9512288256 B of Q8_0 repacked in place = 9.34 GB/s
+following the host's worker

@@ -1,0 +1,11 @@
+tpc2                   rc=0 14.537 tok/s (min 14.537 max 14.576); PROMPT 31.002 tok/s
+tpc3                   rc=0 14.451 tok/s (min 14.451 max 14.463); PROMPT 34.141 tok/s
+tpc4                   rc=0 14.241 tok/s (min 14.241 max 14.322); PROMPT 33.956 tok/s
+tpc2                   rc=0 14.607 tok/s (min 14.607 max 14.654); PROMPT 30.318 tok/s
+tpc3                   rc=0 14.413 tok/s (min 14.413 max 14.418); PROMPT 34.666 tok/s
+tpc4                   rc=0 14.385 tok/s (min 14.385 max 14.441); PROMPT 34.770 tok/s
+tpc4-pf2048-1024       rc=0 14.261 tok/s (min 14.261 max 14.318); PROMPT 34.288 tok/s
+tpc4-pf8192-4096       rc=0 14.282 tok/s (min 14.282 max 14.297); PROMPT 34.028 tok/s
+tpc4-pf16384-2048      rc=0 14.249 tok/s (min 14.249 max 14.343); PROMPT 33.555 tok/s
+tpc4-pf1088-544        rc=0 14.447 tok/s (min 14.447 max 14.486); PROMPT 34.954 tok/s
+tpc4-pf0               rc=0 14.347 tok/s (min 14.347 max 14.355); PROMPT 33.066 tok/s

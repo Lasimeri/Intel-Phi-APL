@@ -1,0 +1,12 @@
+X=1 248320x2048 T 8: 12.949 ms, 628.4 GFLOPS (26.0 %), vs matvec 1.90x, differ 0
+APL_PFX=1 248320x2048 T 8: 12.197 ms, 667.1 GFLOPS (27.6 %), vs matvec 2.01x, differ 0
+X=1 248320x2048 T 16: 25.723 ms, 632.7 GFLOPS (26.2 %), vs matvec 1.91x, differ 0
+APL_PFX=1 248320x2048 T 16: 28.711 ms, 566.8 GFLOPS (23.5 %), vs matvec 1.71x, differ 0
+X=1 248320x2048 T 40: 108.206 ms, 376.0 GFLOPS (15.6 %), vs matvec 1.14x, differ 0
+APL_PFX=1 248320x2048 T 40: 78.383 ms, 519.0 GFLOPS (21.5 %), vs matvec 1.57x, differ 0
+-- resident: a matrix that stays in the L2s
+APL_PFX=1 2048x2048 T 1: 0.041 ms, 206.6 GFLOPS (8.6 %), vs matvec 0.99x, differ 0
+APL_PFX=1 2048x2048 T 8: 0.174 ms, 385.4 GFLOPS (15.9 %), vs matvec 1.86x, differ 0
+APL_PFX=1 2048x2048 T 16: 0.388 ms, 346.4 GFLOPS (14.3 %), vs matvec 1.71x, differ 0
+APL_PFX=1 2048x2048 T 40: 1.145 ms, 293.0 GFLOPS (12.1 %), vs matvec 1.53x, differ 0
+X=1 2048x2048 T 8: 0.186 ms, 361.8 GFLOPS (15.0 %), vs matvec 1.72x, differ 0

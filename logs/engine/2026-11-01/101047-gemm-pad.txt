@@ -1,0 +1,12 @@
+pad 0 T 8 pf 32768,2048: 13.295 ms, 612.0 GFLOPS (25.3 %), vs matvec 1.85x, differ 0
+pad 16 T 8 pf 32768,2048: 12.382 ms, 657.2 GFLOPS (27.2 %), vs matvec 1.98x, differ 0
+pad 32 T 8 pf 32768,2048: 12.358 ms, 658.4 GFLOPS (27.2 %), vs matvec 1.98x, differ 0
+pad 0 T 16 pf 32768,2048: 26.117 ms, 623.1 GFLOPS (25.8 %), vs matvec 1.89x, differ 0
+pad 16 T 16 pf 32768,2048: 30.219 ms, 538.5 GFLOPS (22.3 %), vs matvec 1.67x, differ 0
+pad 32 T 16 pf 32768,2048: 24.335 ms, 668.7 GFLOPS (27.7 %), vs matvec 2.02x, differ 0
+pad 0 T 40 pf 32768,2048: 108.971 ms, 373.4 GFLOPS (15.4 %), vs matvec 1.13x, differ 0
+pad 16 T 40 pf 32768,2048: 122.249 ms, 332.8 GFLOPS (13.8 %), vs matvec 1.00x, differ 0
+pad 32 T 40 pf 32768,2048: 133.251 ms, 305.3 GFLOPS (12.6 %), vs matvec 0.92x, differ 0
+pad 0 T 64 pf 32768,2048: 290.930 ms, 223.7 GFLOPS (9.3 %), vs matvec 0.70x, differ 0
+pad 16 T 64 pf 32768,2048: 317.973 ms, 204.7 GFLOPS (8.5 %), vs matvec 0.62x, differ 0
+pad 32 T 64 pf 32768,2048: 329.886 ms, 197.3 GFLOPS (8.2 %), vs matvec 0.61x, differ 0

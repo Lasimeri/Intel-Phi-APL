@@ -1,0 +1,32 @@
+phictl put: 161448 bytes
+phictl put: 766 bytes
+host worker: 4 threads, waiting for the card
+host in prompt: worked 1.273 ms/token, waited for the card 6.747 ms/token, 7.4 exchanges/token
+host in decode: worked 2.393 ms/token, waited for the card 12.798 ms/token, 60.6 exchanges/token
+mtp: 1 drafts per pass: drafted 69, accepted 57 (82.6 %), 70 passes, 1.81 tokens per pass
+run 0 (warm-up): prompt 40 tokens 0.321 s = 124.677 tok/s; decode 127 tokens 1.929 s = 65.829 tok/s
+host in prompt: worked 1.070 ms/token, waited for the card 6.737 ms/token, 7.4 exchanges/token
+host in decode: worked 2.137 ms/token, waited for the card 12.868 ms/token, 60.6 exchanges/token
+mtp: 1 drafts per pass: drafted 69, accepted 57 (82.6 %), 70 passes, 1.81 tokens per pass
+run 1: prompt 40 tokens 0.312 s = 128.086 tok/s; decode 127 tokens 1.906 s = 66.644 tok/s
+host in prompt: worked 1.134 ms/token, waited for the card 6.811 ms/token, 7.4 exchanges/token
+host in decode: worked 2.156 ms/token, waited for the card 12.693 ms/token, 60.6 exchanges/token
+mtp: 1 drafts per pass: drafted 69, accepted 57 (82.6 %), 70 passes, 1.81 tokens per pass
+run 2: prompt 40 tokens 0.318 s = 125.875 tok/s; decode 127 tokens 1.886 s = 67.343 tok/s
+host in prompt: worked 1.088 ms/token, waited for the card 6.856 ms/token, 7.4 exchanges/token
+host in decode: worked 2.153 ms/token, waited for the card 12.724 ms/token, 60.6 exchanges/token
+mtp: 1 drafts per pass: drafted 69, accepted 57 (82.6 %), 70 passes, 1.81 tokens per pass
+run 3: prompt 40 tokens 0.318 s = 125.883 tok/s; decode 127 tokens 1.889 s = 67.214 tok/s
+host memory: peak RSS 	  152392 kB
+KV cache in system memory: 29360128 B reserved in the region
+gen 357 2822 369 264 15170 3992 11 7063 421 424 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 271 2456 43 369 264 3992 421 369 5995 310 381 1429 440 15170 15019 12178 13 357 2822 369 264 3992 421 369 5995 310 381
+all repeats generated the same tokens: yes
+DECODE 67.214 tok/s (median of 3; min 66.644 max 67.343); PROMPT 125.883 tok/s; host threads 4
+feed: 2076674432 B in 124 slots, 0.687 s wall = 3.02 GB/s; file reads 0.373 s = 5.57 GB/s
+arena: 2078277632 B on 2 MiB pages
+received 2076674432 B in 0.640 s = 3.25 GB/s
+file sum 4efb808a928153ac
+F32 weights: 4194304 B on 2 MiB pages
+repack scratch: 12582912 B on 2 MiB pages
+weights ready in 0.256 s: 2063474688 B of Q8_0 repacked in place = 8.06 GB/s
+following the host's worker

@@ -1,0 +1,36 @@
+host: gguf_info gguf_apl gguf_rows numcmp logit_cmp t_knc_half fma-gate fma-ref upconv upconv_cmp gemv_bench real_gemv apl_feed txt2f32 -> out/host
+host: ref_llama (against /home/lasimeri/llama.cpp) -> out/host
+fma-gate: result: 0 illegal, 0 suspect, 4 KNC vector
+upconv: result: 0 illegal, 0 suspect, 33 KNC vector
+gemv_bench: result: 0 illegal, 0 suspect, 91 KNC vector
+real_gemv: result: 0 illegal, 0 suspect, 91 KNC vector
+cross_card: result: 0 illegal, 0 suspect, 0 KNC vector
+card: fma-gate upconv gemv_bench real_gemv -> out/card
+ compiled: /media/1TB-NVMe/Intel-Phi-APL/out/gen/Qwen3.8-9B-Q8_0/model  472  lines of functions,  2  float tables,  4  integer tables, frame 2540288 B 
+ compiled: /media/1TB-NVMe/Intel-Phi-APL/out/gen/Qwen3.8-9B-Q8_0/model_card  293  lines of functions,  2  float tables,  4  integer tables, frame 2540288 B 
+engine-Qwen3.8-9B-Q8_0: result: 0 illegal, 0 suspect, 351 KNC vector
+engine-Qwen3.8-9B-Q8_0-prof: result: 0 illegal, 0 suspect, 351 KNC vector
+engine-Qwen3.8-9B-Q8_0-split: result: 0 illegal, 0 suspect, 351 KNC vector
+phictl put: 123424 bytes
+phictl put: 747 bytes
+host worker: 1 threads, waiting for the card
+host in decode: worked 1.537 ms/token, waited for the card 126.733 ms/token, 202.0 exchanges/token
+run 0 (warm-up): prompt 40 tokens 5.248 s = 7.621 tok/s; decode 127 tokens 16.290 s = 7.796 tok/s
+host in decode: worked 1.483 ms/token, waited for the card 124.805 ms/token, 202.0 exchanges/token
+run 1: prompt 40 tokens 5.129 s = 7.798 tok/s; decode 127 tokens 16.039 s = 7.918 tok/s
+host in decode: worked 1.501 ms/token, waited for the card 126.322 ms/token, 202.0 exchanges/token
+run 2: prompt 40 tokens 5.085 s = 7.867 tok/s; decode 127 tokens 16.234 s = 7.823 tok/s
+host in decode: worked 1.512 ms/token, waited for the card 124.819 ms/token, 202.0 exchanges/token
+run 3: prompt 40 tokens 5.134 s = 7.791 tok/s; decode 127 tokens 16.044 s = 7.916 tok/s
+gen 357 2822 369 264 1496 11258 11 1287 33924 15019 3992 421 557 12830 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15 82 13 1049 369 264 61446 11 7737 11 321 74487 3992 421 369 13177 1429 303 5090 4881 11 2583 795 6157 11 11991 23470 11 321 5713 32368 13 357 2822 369 264 15019 3992 421 557 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15 82 13 1049 369 3750 364 1141 61446 321 74487 18890 11 864 5954 364 6150 7289 310 381 5158 303 264 2342 4965 314 1970 13 357 2822 369 264 15019 3992 7633 539 46785 458 13 32372 1225 303 279 220 16 24 21 15
+all repeats generated the same tokens: yes
+DECODE 7.916 tok/s (median of 3; min 7.823 max 7.918); PROMPT 7.798 tok/s; host threads 1
+feed: 9786060096 B in 584 slots, 3.231 s wall = 3.03 GB/s; file reads 1.717 s = 5.70 GB/s
+arena: 9787408384 B on 2 MiB pages
+received 9786060096 B in 2.999 s = 3.26 GB/s
+file sum 44abf6b42567a697
+F32 weights: 6291456 B on 2 MiB pages
+repack scratch: 25165824 B on 2 MiB pages
+weights ready in 1.318 s: 9512288256 B of Q8_0 repacked in place = 7.22 GB/s
+state: 117440512 B on 2 MiB pages
+following the host's worker

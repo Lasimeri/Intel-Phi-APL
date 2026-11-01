@@ -1,0 +1,15 @@
+base       rc=0 15.231 tok/s (min 15.231 max 15.387); PROMPT 35.229 tok/s | worked 5.372 ms/token, waited for the card 60.282 ms/token
+open0      rc=0 15.544 tok/s (min 15.544 max 15.563); PROMPT 35.595 tok/s | worked 4.982 ms/token, waited for the card 59.352 ms/token
+p96K       rc=0 15.651 tok/s (min 15.651 max 15.657); PROMPT 36.769 tok/s | worked 6.221 ms/token, waited for the card 57.650 ms/token
+p192K      rc=0 15.617 tok/s (min 15.617 max 15.691); PROMPT 35.855 tok/s | worked 6.412 ms/token, waited for the card 57.622 ms/token
+p256K      rc=0 15.650 tok/s (min 15.650 max 15.739); PROMPT 37.234 tok/s | worked 6.330 ms/token, waited for the card 57.569 ms/token
+base       rc=0 14.911 tok/s (min 14.911 max 14.989); PROMPT 36.801 tok/s | worked 6.911 ms/token, waited for the card 60.153 ms/token
+open0      rc=0 15.224 tok/s (min 15.224 max 15.235); PROMPT 34.986 tok/s | worked 6.344 ms/token, waited for the card 59.343 ms/token
+p96K       rc=0 15.809 tok/s (min 15.809 max 15.890); PROMPT 38.138 tok/s | worked 6.158 ms/token, waited for the card 57.098 ms/token
+p192K      rc=0 15.715 tok/s (min 15.715 max 15.739); PROMPT 36.107 tok/s | worked 6.244 ms/token, waited for the card 57.291 ms/token
+p256K      rc=0 15.583 tok/s (min 15.583 max 15.641); PROMPT 35.348 tok/s | worked 6.645 ms/token, waited for the card 57.529 ms/token
+base       rc=0 15.078 tok/s (min 15.078 max 15.143); PROMPT 36.872 tok/s | worked 5.947 ms/token, waited for the card 60.089 ms/token
+open0      rc=0 15.212 tok/s (min 15.212 max 15.372); PROMPT 37.924 tok/s | worked 5.848 ms/token, waited for the card 59.206 ms/token
+p96K       rc=0 15.935 tok/s (min 15.935 max 16.008); PROMPT 37.997 tok/s | worked 5.723 ms/token, waited for the card 57.031 ms/token
+p192K      rc=0 15.750 tok/s (min 15.750 max 15.922); PROMPT 36.162 tok/s | worked 6.132 ms/token, waited for the card 57.360 ms/token
+p256K      rc=0 15.824 tok/s (min 15.824 max 15.899); PROMPT 36.299 tok/s | worked 5.160 ms/token, waited for the card 57.739 ms/token

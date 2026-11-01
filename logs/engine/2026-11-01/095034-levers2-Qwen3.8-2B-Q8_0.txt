@@ -1,0 +1,17 @@
+APL=base                                         rc=0 42.991 tok/s (min 42.991 max 43.027) | wait 22.254 ms | same 1
+APL_RAMP=4096                                    rc=0 42.912 tok/s (min 42.912 max 43.326) | wait 22.260 ms | same 1
+APL_PF_L2=8192 APL_RAMP=8192                     rc=0 42.159 tok/s (min 42.159 max 42.305) | wait 22.700 ms | same 1
+APL_PF_L2=16384 APL_RAMP=16384                   rc=0 40.891 tok/s (min 40.891 max 41.558) | wait 23.070 ms | same 1
+APL_PF_L2=32768 APL_RAMP=32768                   rc=0 38.397 tok/s (min 38.397 max 38.765) | wait 25.050 ms | same 1
+APL=base                                         rc=0 43.532 tok/s (min 43.532 max 43.535) | wait 21.986 ms | same 1
+APL_PF_L2=3072 APL_PF_L1=1536                    rc=0 43.121 tok/s (min 43.121 max 43.243) | wait 22.187 ms | same 1
+APL_PF_L2=2048 APL_PF_L1=1024                    rc=0 41.795 tok/s (min 41.795 max 41.836) | wait 22.932 ms | same 1
+APL_PF_L2=1024 APL_PF_L1=512                     rc=0 39.823 tok/s (min 39.823 max 39.848) | wait 24.118 ms | same 1
+APL_PF_L1=1024                                   rc=0 39.034 tok/s (min 39.034 max 39.051) | wait 24.623 ms | same 1
+APL_PF_L1=3072                                   rc=0 43.032 tok/s (min 43.032 max 43.072) | wait 22.240 ms | same 1
+APL=base                                         rc=0 42.789 tok/s (min 42.789 max 43.153) | wait 22.188 ms | same 1
+APL_BIG_L2=4096 APL_BIG_L1=2048                  rc=0 43.182 tok/s (min 43.182 max 43.267) | wait 22.134 ms | same 1
+APL_BIG_L2=2048 APL_BIG_L1=1024                  rc=0 42.001 tok/s (min 42.001 max 42.140) | wait 22.756 ms | same 1
+APL_BIG_L2=65536 APL_BIG_L1=4096                 rc=0 42.625 tok/s (min 42.625 max 42.720) | wait 22.465 ms | same 1
+APL_BIG_RAMP=32768                               rc=0 43.039 tok/s (min 43.039 max 43.242) | wait 22.137 ms | same 1
+APL=base                                         rc=0 43.667 tok/s (min 43.667 max 43.696) | wait 21.905 ms | same 1

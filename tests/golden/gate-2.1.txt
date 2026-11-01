@@ -1,0 +1,7 @@
+s8     n    512 hash 31286db5410df61d
+u8fma  n    512 hash 07075f7f474d6df0
+u8mul  n    512 hash 2ad954a2b89cd840
+b16    n   4096 hash 899d06ef0d3241f7
+bcast  n   4096 hash 899d06ef0d3241f7
+f16    n 131072 hash edf5bc9c5bb8a5f4
+hsum   n    256 hash e410b562ae48309e

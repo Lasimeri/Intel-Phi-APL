@@ -1,0 +1,6 @@
+10:42:33 Scard    Qwen3.8-2B-Q8_0 rc=0 46.001 tok/s (min 45.914 max 46.131); PROMPT 46.833 tok/s | worked 1.048 ms/token, waited for the card 20.630 ms/token
+10:43:33 Shost    Qwen3.8-2B-Q8_0 rc=3  | 
+10:43:49 Scard    Qwen3.8-2B-Q8_0 rc=0 45.849 tok/s (min 45.823 max 45.933); PROMPT 46.483 tok/s | worked 1.006 ms/token, waited for the card 20.805 ms/token
+10:44:49 Shost    Qwen3.8-2B-Q8_0 rc=3  | 
+10:45:05 Scard    Qwen3.8-2B-Q8_0 rc=0 45.367 tok/s (min 44.947 max 45.495); PROMPT 46.065 tok/s | worked 1.059 ms/token, waited for the card 20.983 ms/token
+10:46:05 Shost    Qwen3.8-2B-Q8_0 rc=3  | 

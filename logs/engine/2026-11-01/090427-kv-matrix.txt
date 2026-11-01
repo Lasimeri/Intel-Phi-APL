@@ -1,0 +1,14 @@
+ placement: AttnLayer card rows 7 host rows 153 side changes 12 
+ placement: AttnLayer card rows 9 host rows 151 side changes 16 
+card t1  n128 rc=0 same=128 vgd+540 fac0.5 | 24.681 tok/s (median of 2; min 24.681 max 24.742 | 0.708 ms/token, waited for the card 39.709 ms/token,
+host t1  n128 rc=0 same=128 vgd+502 fac0.5 | 26.743 tok/s (median of 2; min 26.743 max 26.971 | 1.016 ms/token, waited for the card 36.377 ms/token,
+host t14 n128 rc=0 same=128 vgd+512 fac0.5 | 25.815 tok/s (median of 2; min 25.815 max 26.037 | 1.704 ms/token, waited for the card 37.033 ms/token,
+card t1  n128 rc=0 same=128 vgd+528 fac0.5 | 24.815 tok/s (median of 2; min 24.815 max 24.853 | 0.698 ms/token, waited for the card 39.601 ms/token,
+host t1  n128 rc=0 same=128 vgd+504 fac0.5 | 26.653 tok/s (median of 2; min 26.653 max 26.735 | 0.988 ms/token, waited for the card 36.531 ms/token,
+host t14 n128 rc=0 same=128 vgd+516 fac0.5 | 25.343 tok/s (median of 2; min 25.343 max 25.461 | 1.977 ms/token, waited for the card 37.481 ms/token,
+host t7  n128 rc=0 same=128 vgd+508 fac0.5 | 26.502 tok/s (median of 2; min 26.502 max 26.573 | 0.968 ms/token, waited for the card 36.664 ms/token,
+card t1  n512 rc=0 same=128 vgd+1165 fac0.5 | 23.689 tok/s (median of 1; min 23.689 max 23.689 | 0.693 ms/token, waited for the card 41.521 ms/token,
+host t1  n512 rc=0 same=128 vgd+1090 fac0.5 | 26.046 tok/s (median of 1; min 26.046 max 26.046 | 1.799 ms/token, waited for the card 36.594 ms/token,
+host t14 n512 rc=0 same=128 vgd+1097 fac0.5 | 25.839 tok/s (median of 1; min 25.839 max 25.839 | 1.974 ms/token, waited for the card 36.726 ms/token,
+card t1  n512 rc=0 same=128 vgd+1287 fac0.5 | 22.502 tok/s (median of 1; min 22.502 max 22.502 | 0.704 ms/token, waited for the card 43.737 ms/token,
+host t14 n512 rc=0 same=128 vgd+1131 fac0.5 | 25.761 tok/s (median of 1; min 25.761 max 25.761 | 1.835 ms/token, waited for the card 36.983 ms/token,

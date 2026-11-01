@@ -1,0 +1,16 @@
+== resident, one group per thread
+944x2048 T 8 tpc 1: 0.094 ms, 329.8 GFLOPS (13.6 %), vs matvec 2.19x, differ 0
+1888x2048 T 8 tpc 2: 0.100 ms, 620.7 GFLOPS (25.7 %), vs matvec 2.24x, differ 0
+2832x2048 T 8 tpc 3: 0.117 ms, 795.7 GFLOPS (32.9 %), vs matvec 2.37x, differ 0
+3776x2048 T 8 tpc 4: 0.140 ms, 881.8 GFLOPS (36.5 %), vs matvec 2.08x, differ 0
+1888x2048 T 16 tpc 2: 0.185 ms, 668.4 GFLOPS (27.7 %), vs matvec 2.53x, differ 0
+1888x2048 T 40 tpc 2: 0.617 ms, 501.4 GFLOPS (20.7 %), vs matvec 2.04x, differ 0
+3776x2048 T 16 tpc 4: 0.264 ms, 937.1 GFLOPS (38.8 %), vs matvec 2.52x, differ 0
+== cold 248320 x 2048
+248320x2048 T 8 tpc 2: 17.163 ms, 474.1 GFLOPS (19.6 %), vs matvec 1.45x, differ 0
+248320x2048 T 16 tpc 2: 24.058 ms, 676.5 GFLOPS (28.0 %), vs matvec 2.05x, differ 0
+248320x2048 T 40 tpc 2: 144.179 ms, 282.2 GFLOPS (11.7 %), vs matvec 0.85x, differ 0
+248320x2048 T 64 tpc 2: 294.891 ms, 220.7 GFLOPS (9.1 %), vs matvec 0.66x, differ 0
+248320x2048 T 8 tpc 4: 10.341 ms, 786.8 GFLOPS (32.6 %), vs matvec 2.50x, differ 0
+248320x2048 T 16 tpc 4: 19.919 ms, 817.0 GFLOPS (33.8 %), vs matvec 2.60x, differ 0
+248320x2048 T 40 tpc 4: 99.080 ms, 410.6 GFLOPS (17.0 %), vs matvec 1.30x, differ 0

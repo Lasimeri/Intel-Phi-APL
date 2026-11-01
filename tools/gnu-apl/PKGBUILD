@@ -1,0 +1,50 @@
+# gnu-apl 2.0: the AUR gnu-apl 1.9-1 PKGBUILD (maintainer Rein Fernhout)
+# moved to the current GNU release. 1.9 left the top level of the GNU
+# server for apl-1.9/ when 2.0 came out, so the AUR source URL is a 404.
+# The tarball is checked by its GNU signature (the key the AUR package
+# already pins) and by its sha256.
+pkgname=gnu-apl
+pkgver=2.0
+pkgrel=3
+url="https://www.gnu.org/software/apl/"
+pkgdesc="An (almost) complete implementation of ISO standard 13751"
+arch=('x86_64')
+depends=('ncurses' 'gcc-libs' 'sqlite' 'libnsl' 'pcre')
+license=('GPL3')
+source=("https://ftp.gnu.org/gnu/apl/apl-${pkgver}.tar.gz"{,.sig}
+        "apserver-close-fd-read-before-erase.patch")
+sha256sums=('24bbb744fce47e62837234a053bdeecee51b9ea61c82c79f7cc191bc6a54c0a1'
+            'SKIP'
+            '435168922d1c240a46ca161d4381d5b66c3389025b1b0ba007be837f94f20a41')
+validpgpkeys=('3EB2E2ECCB2F040A26CB7F2192B68B71531B6686')
+
+prepare() {
+    cd "$srcdir/apl-$pkgver"
+    # APserver close_fd read the second socket of a connection AFTER erasing
+    # it from connected_procs: index j then names the next entry, or one past
+    # the end for the last one (an out-of-bounds read; _GLIBCXX_ASSERTIONS
+    # aborts at )OFF). Read it before the erase.
+    patch -p1 -i "$srcdir/apserver-close-fd-read-before-erase.patch"
+    # The default color scheme is black-on-black in some terminals: switch
+    # to CURSES colors. Matched by content (the 1.9 PKGBUILD used line
+    # numbers 64/65, which no longer hold these lines in 2.0).
+    sed -i 's/^  Color         ANSI (default)$/#&/' gnu-apl.d/preferences{,.in}
+    sed -i '0,/^#[[:space:]]*Color[[:space:]]\+CURSES$/s//Color\tCURSES/' gnu-apl.d/preferences{,.in}
+}
+
+build() {
+    cd "$srcdir/apl-$pkgver"
+    # GNU APL builds Cell objects with placement new over raw memory. GCC 16's
+    # default lifetime-based dead store elimination and strict aliasing break
+    # that code: at plain -O2 the interpreter segfaults on `*1000` then
+    # `1+*1000`, and corrupts values in ordinary array code (B←B[;;2+⍳32]).
+    # Both reproducers run clean with these two flags.
+    CXXFLAGS+=' -fno-lifetime-dse -fno-strict-aliasing'
+    CFLAGS='-std=gnu99' CXX_WERROR='no' ./configure --prefix=/usr --sysconfdir=/etc
+    make PREFIX=/usr
+}
+
+package() {
+    cd "$srcdir/apl-$pkgver"
+    make PREFIX=/usr DESTDIR="$pkgdir" install
+}

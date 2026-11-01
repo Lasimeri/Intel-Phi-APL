@@ -1,0 +1,6 @@
+K=1 16.890 tok/s (min 16.890 max 17.011); PROMPT 31.515 tok/s | ens: y
+K=1 16.908 tok/s (min 16.908 max 16.934); PROMPT 30.717 tok/s | ens: y
+K=2 16.511 tok/s (min 16.511 max 16.723); PROMPT 30.825 tok/s | ens: y
+K=0 14.645 tok/s (min 14.645 max 14.771); PROMPT 32.760 tok/s | ens: y
+K=3 15.154 tok/s (min 15.154 max 15.322); PROMPT 31.339 tok/s | ens: y
+K=1 16.759 tok/s (min 16.759 max 16.795); PROMPT 30.151 tok/s | ens: y

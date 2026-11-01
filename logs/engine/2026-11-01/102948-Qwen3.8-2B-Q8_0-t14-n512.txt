@@ -1,0 +1,3 @@
+phictl put: 124768 bytes
+phictl put: 766 bytes
+host worker: 14 threads, waiting for the card

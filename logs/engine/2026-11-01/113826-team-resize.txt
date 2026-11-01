@@ -1,0 +1,12 @@
+11:38:47 P3       Qwen3.8-9B-Q8_0 rc=0 14.658 tok/s (min 14.658 max 14.718); PROMPT 33.419 tok/s | worked 8.019 ms/token, waited for the card 59.924 ms/token
+11:39:09 G4       Qwen3.8-9B-Q8_0 rc=0 14.776 tok/s (min 14.776 max 14.810); PROMPT 30.606 tok/s | worked 7.719 ms/token, waited for the card 59.802 ms/token
+11:39:30 P3       Qwen3.8-9B-Q8_0 rc=0 14.610 tok/s (min 14.610 max 14.698); PROMPT 34.336 tok/s | worked 8.022 ms/token, waited for the card 60.014 ms/token
+11:39:52 G4       Qwen3.8-9B-Q8_0 rc=0 14.656 tok/s (min 14.656 max 14.729); PROMPT 31.015 tok/s | worked 7.783 ms/token, waited for the card 60.109 ms/token
+11:40:13 P3       Qwen3.8-9B-Q8_0 rc=0 14.656 tok/s (min 14.656 max 14.699); PROMPT 34.475 tok/s | worked 8.008 ms/token, waited for the card 60.023 ms/token
+11:40:35 G4       Qwen3.8-9B-Q8_0 rc=0 14.715 tok/s (min 14.715 max 14.764); PROMPT 30.750 tok/s | worked 8.208 ms/token, waited for the card 59.749 ms/token
+11:40:48 P3       Qwen3.8-2B-Q8_0 rc=0 49.213 tok/s (min 48.699 max 49.264); PROMPT 125.276 tok/s | worked 3.250 ms/token, waited for the card 17.284 ms/token
+11:41:01 G4       Qwen3.8-2B-Q8_0 rc=0 49.280 tok/s (min 48.874 max 49.281); PROMPT 111.591 tok/s | worked 3.281 ms/token, waited for the card 17.180 ms/token
+11:41:13 P3       Qwen3.8-2B-Q8_0 rc=0 49.109 tok/s (min 48.789 max 49.356); PROMPT 123.355 tok/s | worked 3.278 ms/token, waited for the card 17.085 ms/token
+11:41:26 G4       Qwen3.8-2B-Q8_0 rc=0 49.350 tok/s (min 49.228 max 49.534); PROMPT 112.281 tok/s | worked 3.273 ms/token, waited for the card 17.041 ms/token
+11:41:39 P3       Qwen3.8-2B-Q8_0 rc=0 48.526 tok/s (min 48.201 max 48.693); PROMPT 121.932 tok/s | worked 3.301 ms/token, waited for the card 17.307 ms/token
+11:41:52 G4       Qwen3.8-2B-Q8_0 rc=0 49.150 tok/s (min 48.969 max 49.214); PROMPT 111.317 tok/s | worked 3.228 ms/token, waited for the card 17.091 ms/token

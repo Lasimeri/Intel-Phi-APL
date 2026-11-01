@@ -1,0 +1,15 @@
+APL=base                               rc=0 38.024 tok/s (min 38.024 max 38.280) | wait 25.284 ms x146.0 | same-tokens 1
+APL_NO_TILES=1                         rc=0 35.720 tok/s (min 35.720 max 35.724) | wait 26.996 ms x146.0 | same-tokens 1
+APL_PF_L1=1024                         rc=0 37.188 tok/s (min 37.188 max 37.217) | wait 25.877 ms x146.0 | same-tokens 1
+APL=base                               rc=0 38.159 tok/s (min 38.159 max 38.201) | wait 25.213 ms x146.0 | same-tokens 1
+APL_PF_L1=3072                         rc=0 38.553 tok/s (min 38.553 max 38.561) | wait 24.933 ms x146.0 | same-tokens 1
+APL_PF_L1=4096                         rc=0 38.080 tok/s (min 38.080 max 38.112) | wait 25.233 ms x146.0 | same-tokens 1
+APL_PF_L2=16384                        rc=0 41.433 tok/s (min 41.433 max 41.508) | wait 23.143 ms x146.0 | same-tokens 1
+APL=base                               rc=0 37.981 tok/s (min 37.981 max 38.009) | wait 25.302 ms x146.0 | same-tokens 1
+APL_PF_L2=8192                         rc=0 42.508 tok/s (min 42.508 max 42.569) | wait 22.495 ms x146.0 | same-tokens 1
+APL_PF_L2=4096                         rc=0 43.467 tok/s (min 43.467 max 43.810) | wait 21.841 ms x146.0 | same-tokens 1
+APL_PF_L2=65536 APL_PF_L1=4096         rc=0 34.046 tok/s (min 34.046 max 34.068) | wait 28.392 ms x146.0 | same-tokens 1
+APL=base                               rc=0 37.998 tok/s (min 37.998 max 38.011) | wait 25.310 ms x146.0 | same-tokens 1
+APL_PAR_ROWS=16                        rc=0 37.652 tok/s (min 37.652 max 38.177) | wait 25.558 ms x146.0 | same-tokens 1
+APL_PAR_ROWS=16 APL_NO_TILES=1         rc=0 35.592 tok/s (min 35.592 max 35.628) | wait 27.096 ms x146.0 | same-tokens 1
+APL=base                               rc=0 38.392 tok/s (min 38.392 max 38.414) | wait 25.058 ms x146.0 | same-tokens 1

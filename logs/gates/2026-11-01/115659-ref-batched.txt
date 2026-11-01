@@ -1,0 +1,3 @@
+gguf_apl: /media/1TB-NVMe/Intel-Phi-APL/input/models/Qwen3.8-2B-Q8_0: No such file or directory
+11:56:59
+gguf_apl: /media/1TB-NVMe/Intel-Phi-APL/input/models/Qwen3.8-2B-Q8_0: No such file or directory

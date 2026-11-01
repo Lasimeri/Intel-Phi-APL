@@ -1,0 +1,9 @@
+MT4  K=1 rc=0 18.720 tok/s (min 18.720 max 18.823); PROMPT 33.864 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passes, 1.79 tokens
+MT3  K=1 rc=0 17.153 tok/s (min 17.153 max 17.254); PROMPT 31.377 tok/s | 128/128 | 1 drafted 70, accepted 57 (81.4 %), 70 passes, 1.81 tokens
+MT4  K=2 rc=0 18.218 tok/s (min 18.218 max 18.319); PROMPT 31.804 tok/s | 128/128 | 2 drafted 108, accepted 72 (66.7 %), 55 passes, 2.31 token
+MT4  K=0 rc=0 14.979 tok/s (min 14.979 max 15.151); PROMPT 31.563 tok/s | 128/128 | 
+MT4  K=1 rc=0 18.619 tok/s (min 18.619 max 19.225); PROMPT 33.367 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passes, 1.79 tokens
+MT3  K=1 rc=0 15.642 tok/s (min 15.642 max 16.063); PROMPT 29.570 tok/s | 128/128 | 1 drafted 70, accepted 57 (81.4 %), 70 passes, 1.81 tokens
+MT4  K=2 rc=0 18.465 tok/s (min 18.465 max 18.766); PROMPT 32.192 tok/s | 128/128 | 2 drafted 108, accepted 72 (66.7 %), 55 passes, 2.31 token
+MT4  K=0 rc=0 15.125 tok/s (min 15.125 max 15.174); PROMPT 35.580 tok/s | 128/128 | 
+MT4  K=3 rc=0 17.647 tok/s (min 17.647 max 18.113); PROMPT 34.284 tok/s | 128/128 | 3 drafted 139, accepted 80 (57.6 %), 47 passes, 2.70 token

@@ -1,0 +1,60 @@
+blk.0.ffn_up.weight: 12288 x 4096, 16777216 weights sampled: entropy 7.684 bits; fixed width per tile 8.000, per 16-lane column 7.988 bits
+  width 1: 98.51 % of weights beyond it; with 12-bit-index patches 20.702 bits/weight
+  width 2: 97.01 % of weights beyond it; with 12-bit-index patches 21.403 bits/weight
+  width 3: 94.04 % of weights beyond it; with 12-bit-index patches 21.808 bits/weight
+  width 4: 88.14 % of weights beyond it; with 12-bit-index patches 21.627 bits/weight
+  width 5: 76.58 % of weights beyond it; with 12-bit-index patches 20.315 bits/weight
+  width 6: 55.40 % of weights beyond it; with 12-bit-index patches 17.081 bits/weight
+  width 7: 24.77 % of weights beyond it; with 12-bit-index patches 11.954 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+blk.0.ffn_down.weight: 4096 x 12288, 50331648 weights sampled: entropy 7.679 bits; fixed width per tile 8.000, per 16-lane column 7.987 bits
+  width 1: 98.50 % of weights beyond it; with 12-bit-index patches 20.700 bits/weight
+  width 2: 97.00 % of weights beyond it; with 12-bit-index patches 21.399 bits/weight
+  width 3: 94.00 % of weights beyond it; with 12-bit-index patches 21.800 bits/weight
+  width 4: 88.05 % of weights beyond it; with 12-bit-index patches 21.610 bits/weight
+  width 5: 76.40 % of weights beyond it; with 12-bit-index patches 20.279 bits/weight
+  width 6: 55.12 % of weights beyond it; with 12-bit-index patches 17.025 bits/weight
+  width 7: 24.54 % of weights beyond it; with 12-bit-index patches 11.909 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+blk.15.ffn_gate.weight: 12288 x 4096, 16777216 weights sampled: entropy 7.666 bits; fixed width per tile 8.000, per 16-lane column 7.984 bits
+  width 1: 98.46 % of weights beyond it; with 12-bit-index patches 20.691 bits/weight
+  width 2: 96.92 % of weights beyond it; with 12-bit-index patches 21.384 bits/weight
+  width 3: 93.86 % of weights beyond it; with 12-bit-index patches 21.771 bits/weight
+  width 4: 87.77 % of weights beyond it; with 12-bit-index patches 21.554 bits/weight
+  width 5: 75.89 % of weights beyond it; with 12-bit-index patches 20.177 bits/weight
+  width 6: 54.35 % of weights beyond it; with 12-bit-index patches 16.871 bits/weight
+  width 7: 23.97 % of weights beyond it; with 12-bit-index patches 11.793 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+blk.0.attn_qkv.weight: 8192 x 4096, 16777216 weights sampled: entropy 7.678 bits; fixed width per tile 8.000, per 16-lane column 7.983 bits
+  width 1: 98.50 % of weights beyond it; with 12-bit-index patches 20.700 bits/weight
+  width 2: 97.00 % of weights beyond it; with 12-bit-index patches 21.400 bits/weight
+  width 3: 94.00 % of weights beyond it; with 12-bit-index patches 21.800 bits/weight
+  width 4: 88.03 % of weights beyond it; with 12-bit-index patches 21.607 bits/weight
+  width 5: 76.37 % of weights beyond it; with 12-bit-index patches 20.275 bits/weight
+  width 6: 55.09 % of weights beyond it; with 12-bit-index patches 17.018 bits/weight
+  width 7: 24.50 % of weights beyond it; with 12-bit-index patches 11.901 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+blk.31.ffn_up.weight: 12288 x 4096, 16777216 weights sampled: entropy 7.677 bits; fixed width per tile 8.000, per 16-lane column 7.987 bits
+  width 1: 98.49 % of weights beyond it; with 12-bit-index patches 20.698 bits/weight
+  width 2: 96.98 % of weights beyond it; with 12-bit-index patches 21.395 bits/weight
+  width 3: 93.96 % of weights beyond it; with 12-bit-index patches 21.793 bits/weight
+  width 4: 87.99 % of weights beyond it; with 12-bit-index patches 21.598 bits/weight
+  width 5: 76.29 % of weights beyond it; with 12-bit-index patches 20.258 bits/weight
+  width 6: 55.00 % of weights beyond it; with 12-bit-index patches 17.000 bits/weight
+  width 7: 24.47 % of weights beyond it; with 12-bit-index patches 11.893 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+output.weight: 248320 x 4096, 16777216 weights sampled: entropy 7.674 bits; fixed width per tile 8.000, per 16-lane column 7.981 bits
+  width 1: 98.48 % of weights beyond it; with 12-bit-index patches 20.696 bits/weight
+  width 2: 96.98 % of weights beyond it; with 12-bit-index patches 21.395 bits/weight
+  width 3: 93.96 % of weights beyond it; with 12-bit-index patches 21.791 bits/weight
+  width 4: 87.94 % of weights beyond it; with 12-bit-index patches 21.588 bits/weight
+  width 5: 76.23 % of weights beyond it; with 12-bit-index patches 20.246 bits/weight
+  width 6: 54.90 % of weights beyond it; with 12-bit-index patches 16.980 bits/weight
+  width 7: 24.34 % of weights beyond it; with 12-bit-index patches 11.868 bits/weight
+  width 8:  0.00 % of weights beyond it; with 12-bit-index patches 8.000 bits/weight
+raw Q8_0 tensor bytes, zstd -1: 268435456 -> 258153187, ratio 1.040
+raw Q8_0 tensor bytes, zstd -9: 268435456 -> 258133049, ratio 1.040
+raw Q8_0 tensor bytes, lz4 -1: 268435456 -> 268417012, ratio 1.000
+F32 activations (what crosses by DMA, 2B layer 10), zstd -1: 327680 -> 303618, ratio 1.079
+F32 activations (what crosses by DMA, 2B layer 10), zstd -9: 327680 -> 303618, ratio 1.079
+F32 activations (what crosses by DMA, 2B layer 10), lz4 -1: 327680 -> 327699, ratio 1.000

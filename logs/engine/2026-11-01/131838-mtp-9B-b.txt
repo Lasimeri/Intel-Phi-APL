@@ -1,0 +1,6 @@
+K=1 16.042 tok/s (min 16.042 max 16.335); PROMPT 33.593 tok/s | worked 8.531 ms/token, waited for the card 53.804 ms/t
+K=0 15.212 tok/s (min 15.212 max 15.345); PROMPT 33.515 tok/s | worked 8.757 ms/token, waited for the card 56.983 ms/t
+K=1 16.022 tok/s (min 16.022 max 16.227); PROMPT 31.291 tok/s | worked 8.547 ms/token, waited for the card 53.867 ms/t
+K=2 15.550 tok/s (min 15.550 max 15.570); PROMPT 33.584 tok/s | worked 8.605 ms/token, waited for the card 55.619 ms/t
+K=0 15.231 tok/s (min 15.231 max 15.326); PROMPT 34.910 tok/s | worked 8.360 ms/token, waited for the card 57.294 ms/t
+K=1 16.265 tok/s (min 16.265 max 16.339); PROMPT 32.520 tok/s | worked 8.234 ms/token, waited for the card 53.248 ms/t

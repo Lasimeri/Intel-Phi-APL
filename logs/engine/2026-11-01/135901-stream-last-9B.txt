@@ -1,0 +1,12 @@
+MT5  K=1 rc=0 17.140 tok/s (min 17.140 max 17.613); PROMPT 31.146 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT7  K=1 rc=0 18.453 tok/s (min 18.453 max 18.839); PROMPT 33.502 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT5  K=0 rc=0 15.092 tok/s (min 15.092 max 15.276); PROMPT 34.318 tok/s | 128/128 | 
+MT7  K=0 rc=0 15.192 tok/s (min 15.192 max 15.263); PROMPT 35.987 tok/s | 128/128 | 
+MT5  K=1 rc=0 19.354 tok/s (min 19.354 max 19.401); PROMPT 33.015 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT7  K=1 rc=0 19.184 tok/s (min 19.184 max 19.395); PROMPT 32.487 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT5  K=0 rc=0 14.627 tok/s (min 14.627 max 14.915); PROMPT 33.185 tok/s | 128/128 | 
+MT7  K=0 rc=0 15.365 tok/s (min 15.365 max 15.614); PROMPT 34.314 tok/s | 128/128 | 
+MT5  K=1 rc=0 19.212 tok/s (min 19.212 max 19.383); PROMPT 33.321 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT7  K=1 rc=0 19.443 tok/s (min 19.443 max 19.932); PROMPT 34.350 tok/s | 128/128 | 1 drafted 71, accepted 56 (78.9 %), 71 passe
+MT5  K=0 rc=0 15.335 tok/s (min 15.335 max 15.441); PROMPT 35.422 tok/s | 128/128 | 
+MT7  K=0 rc=0 15.464 tok/s (min 15.464 max 15.525); PROMPT 35.198 tok/s | 128/128 | 
